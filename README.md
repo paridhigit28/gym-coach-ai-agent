@@ -1,3 +1,5 @@
+URL- https://gym-coach-ai-agent.onrender.com
+
 Trainora — AI-Powered Personal Fitness Coach
 
 Trainora is an AI-powered fitness platform built with **Streamlit** that combines personalized nutrition planning, workout planning, and real-time AI-assisted workout coaching in a single application.
