@@ -1,0 +1,1600 @@
+/* =========================================================
+   TRAINORA DESIGN SYSTEM
+   Dark green / near-black + lime-green accent, premium
+   fitness-tech aesthetic. Canonical tokens below; legacy
+   --teal / --blue names are kept as aliases so every existing
+   page (which already references var(--teal) etc.) repaints
+   automatically without needing to be touched.
+   ========================================================= */
+
+:root {
+  /* --- canonical Trainora tokens --- */
+  --bg:          #151915;
+  --surface:     #1d221d;
+  --surface-2:   #232923;
+  --surface-3:   #2a312a;
+  --text:        #f4f5eb;
+  --muted:       #929a8e;
+  --lime:        #d7ff32;
+  --lime-dim:    #aecc28;
+  --lime-glow:   rgba(215,255,50,0.18);
+  --lime-light:  #a9f0a0;
+  --border:      rgba(255,255,255,.10);
+  --border-soft: rgba(255,255,255,.06);
+  --danger:      #ff6b57;
+  --danger-glow: rgba(255,107,87,0.14);
+  --radius-sm:   10px;
+  --radius-md:   16px;
+  --radius-lg:   22px;
+
+  /* --- legacy aliases (do not remove — used throughout the app) --- */
+  --teal:        var(--lime);
+  --teal-dim:    var(--lime-dim);
+  --teal-glow:   var(--lime-glow);
+  --blue:        #8fd3ff;
+  --blue-glow:   rgba(143,211,255,0.14);
+  --on-lime:     #10140c;
+}
+
+/* =========================================================
+   GLOBAL THEME
+========================================================= */
+
+/* Always reserve the vertical-scrollbar's width, whether or not a
+   scrollbar is actually needed on the current page. Without this, a
+   short page (no scrollbar) is a few pixels wider than a tall page
+   (has a scrollbar), so the right-aligned profile icon in the top bar
+   visibly shifts left/right as you move between pages. */
+html {
+  scrollbar-gutter: stable;
+}
+
+[data-testid="stAppViewContainer"],
+[data-testid="stMain"] {
+  scrollbar-gutter: stable;
+}
+
+html, body,
+.stApp,
+[data-testid="stAppViewContainer"],
+[data-testid="stMain"],
+[data-testid="stHeader"],
+.main {
+  background-color: var(--bg) !important;
+  color: var(--text) !important;
+}
+
+.stApp {
+  background-image:
+    linear-gradient(rgba(215,255,50,0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(215,255,50,0.035) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.block-container {
+  position: relative;
+  z-index: 1;
+}
+
+[data-testid="stSidebar"] {
+  background-color: var(--surface) !important;
+  border-right: 1px solid var(--border-soft);
+}
+
+[data-testid="stSidebar"] * {
+  color: var(--text);
+}
+
+[data-testid="stSidebar"] > div:first-child {
+  padding-top: 1.5rem;
+}
+
+/* =========================================================
+   TYPOGRAPHY (SCOPED — safer)
+========================================================= */
+
+.block-container,
+.block-container * {
+  font-family: 'AdobeClean', sans-serif !important;
+}
+
+h1, h2, h3, [data-testid="stMarkdownContainer"] h1,
+[data-testid="stMarkdownContainer"] h2,
+[data-testid="stMarkdownContainer"] h3 {
+  color: var(--text) !important;
+  letter-spacing: -0.01em;
+}
+
+[data-testid="stMarkdownContainer"] h4 {
+  color: var(--muted) !important;
+  font-weight: 400 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.85rem !important;
+  border-bottom: 1px solid var(--border-soft);
+  padding-bottom: 10px;
+  margin-bottom: 4px !important;
+}
+
+[data-testid="stCaptionContainer"] p {
+  color: var(--teal) !important;
+}
+
+/* =========================================================
+   LAYOUT
+========================================================= */
+
+.block-container {
+  padding: 44px 3.5rem 64px !important;
+  max-width: 1360px !important;
+}
+
+hr, [data-testid="stDivider"] {
+  border-color: var(--border-soft) !important;
+}
+
+/* =========================================================
+   BUTTONS
+========================================================= */
+
+button,
+.stButton button,
+.stDownloadButton button,
+.MuiBox-root button {
+  background-color: var(--surface-2) !important;
+  color: var(--text) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--radius-sm) !important;
+  font-family: 'AdobeClean', sans-serif !important;
+  letter-spacing: 0.04em;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+button:hover,
+.stButton button:hover,
+.stDownloadButton button:hover {
+  border-color: var(--teal) !important;
+  background-color: rgba(215,255,50,0.08) !important;
+  color: var(--teal) !important;
+}
+
+/* Streamlit's built-in icons (expander arrows, etc.) use a special icon
+   font where the visible glyph is drawn from literal text like
+   "keyboard_arrow_right". Our global button font-family override above
+   breaks that font and shows the raw text overlapping the label, so we
+   exclude icon elements from it here. */
+[data-testid="stIconMaterial"],
+span[data-testid="stIconMaterial"] {
+  font-family: 'Material Symbols Rounded', 'Material Symbols Outlined', sans-serif !important;
+  letter-spacing: normal !important;
+}
+
+/* Primary CTA buttons (Start Workout / Start Session) get a solid teal fill */
+[data-testid="stButton"] button[kind="secondary"],
+.stButton button {
+  position: relative;
+}
+
+div[data-testid="stButton"]:has(button[key="start_session_button"]) button,
+div[data-testid="stFormSubmitButton"] button {
+  background-color: var(--teal) !important;
+  color: var(--on-lime) !important;
+  border: 1px solid var(--teal) !important;
+  font-weight: 500 !important;
+  box-shadow: 0 0 18px var(--teal-glow) !important;
+}
+
+div[data-testid="stButton"]:has(button[key="start_session_button"]) button:hover,
+div[data-testid="stFormSubmitButton"] button:hover {
+  background-color: var(--teal-dim) !important;
+  border-color: var(--teal-dim) !important;
+  color: var(--on-lime) !important;
+  box-shadow: 0 0 26px var(--teal-glow) !important;
+}
+
+div[data-testid="stButton"]:has(button[key="open_pages/live_tracker.py"]) button {
+  background-color: var(--teal) !important;
+  color: var(--on-lime) !important;
+  border: 1px solid var(--teal) !important;
+  font-weight: 500 !important;
+  box-shadow: 0 0 18px var(--teal-glow) !important;
+}
+
+div[data-testid="stButton"]:has(button[key="open_pages/live_tracker.py"]) button:hover {
+  background-color: var(--teal-dim) !important;
+  border-color: var(--teal-dim) !important;
+  color: var(--on-lime) !important;
+  box-shadow: 0 0 26px var(--teal-glow) !important;
+}
+
+div[data-testid="stButton"]:has(button[key="menu_logout"]) button {
+  background-color: transparent !important;
+  border: 1px solid var(--border-soft) !important;
+  color: var(--muted) !important;
+}
+
+div[data-testid="stButton"]:has(button[key="menu_logout"]) button:hover {
+  border-color: var(--danger) !important;
+  color: var(--danger) !important;
+  background-color: rgba(255,107,87,0.08) !important;
+}
+
+div[data-testid="stButton"]:has(button[key="end_session_button"]) button {
+  border-color: var(--danger) !important;
+  color: var(--danger) !important;
+}
+
+div[data-testid="stButton"]:has(button[key="end_session_button"]) button:hover {
+  background-color: rgba(255,107,87,0.1) !important;
+}
+
+/* =========================================================
+   INPUTS & TEXT ELEMENTS
+========================================================= */
+
+input,
+textarea,
+p,
+li,
+code,
+[data-testid="stSelectbox"] > div > div,
+[data-baseweb="select"] > div,
+[data-baseweb="popover"] ul,
+[data-baseweb="menu"] {
+  border-radius: var(--radius-sm) !important;
+  font-family: 'AdobeClean', sans-serif !important;
+}
+
+[data-baseweb="input"],
+[data-baseweb="select"] > div,
+[data-baseweb="base-input"] {
+  background-color: var(--surface-2) !important;
+  border: 1px solid var(--border-soft) !important;
+}
+
+[data-baseweb="input"]:focus-within,
+[data-baseweb="select"]:focus-within > div {
+  border-color: var(--teal) !important;
+  box-shadow: 0 0 0 1px var(--teal) !important;
+}
+
+input, textarea {
+  color: var(--text) !important;
+  background-color: transparent !important;
+}
+
+input::placeholder, textarea::placeholder {
+  color: var(--muted) !important;
+}
+
+label, [data-testid="stWidgetLabel"] p {
+  color: var(--muted) !important;
+  font-size: 0.85rem !important;
+}
+
+[data-testid="stNumberInputContainer"] {
+  background-color: var(--surface-2) !important;
+  border: 1px solid var(--border-soft) !important;
+}
+
+[data-testid="stNumberInputContainer"] button {
+  background-color: transparent !important;
+  border: none !important;
+  color: var(--teal) !important;
+}
+
+/* =========================================================
+   METRICS
+========================================================= */
+
+[data-testid="stMetric"] {
+  background-color: var(--surface-2);
+  border: 1px solid var(--border-soft);
+  border-left: 2px solid var(--teal);
+  padding: 1rem 1.2rem;
+  border-radius: var(--radius-sm);
+  box-shadow: 0 0 14px rgba(215,255,50,0.06);
+  transition: box-shadow 0.2s ease;
+}
+
+[data-testid="stMetric"]:hover {
+  box-shadow: 0 0 20px var(--teal-glow);
+}
+
+[data-testid="stMetric"] div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+[data-testid="stMetricValue"] {
+  font-size: 1.5rem !important;
+  font-weight: 400 !important;
+  color: var(--teal) !important;
+}
+
+[data-testid="stMetricLabel"] {
+  font-size: 15px !important;
+  opacity: 0.7;
+  color: var(--muted) !important;
+}
+
+[data-testid="stMetric"] div label p {
+  font-size: 16px !important;
+}
+
+/* =========================================================
+   ALERTS / INFO / SUCCESS / ERROR
+========================================================= */
+
+[data-testid="stAlertContainer"] {
+  border-radius: var(--radius-sm) !important;
+  border: 1px solid var(--border-soft) !important;
+}
+
+[data-testid="stAlertContentInfo"] {
+  background-color: var(--blue-glow) !important;
+  border-left: 2px solid var(--blue) !important;
+}
+
+[data-testid="stAlertContentSuccess"] {
+  background-color: var(--teal-glow) !important;
+  border-left: 2px solid var(--teal) !important;
+}
+
+[data-testid="stAlertContentError"] {
+  background-color: rgba(255,107,87,0.1) !important;
+  border-left: 2px solid var(--danger) !important;
+}
+
+/* =========================================================
+   CONTAINERS / CARDS
+========================================================= */
+
+.stContainer,
+.stExpander,
+.stTabs,
+.stColumns,
+.stPopover,
+.stAlertContainer,
+.stStatusContainer,
+.stMetric,
+.stTable,
+.stDataFrame,
+.stForm,
+.stSelectbox,
+[data-baseweb="select"] > div,
+[data-testid="stForm"],
+[data-testid="stMetric"],
+[data-testid="stNumberInputContainer"],
+[data-testid="stDataFrameColumnMenu"],
+[data-testid="stHeadingWithActionElements"],
+[data-testid="stCaptionContainer"] p,
+[data-testid="stAlertContentInfo"] p,
+[data-testid="stSidebarNavLink"],
+[data-testid="stMarkdownContainer"] h3,
+[data-baseweb="popover"],
+[data-baseweb="menu"],
+div[role="menu"],
+div[role="menuitem"] {
+  border-radius: var(--radius-sm) !important;
+  font-family: 'AdobeClean', sans-serif !important;
+}
+
+[data-baseweb="popover"], [data-baseweb="menu"] {
+  background-color: var(--surface-2) !important;
+  border: 1px solid var(--border-soft) !important;
+}
+
+div[role="menuitem"]:hover {
+  background-color: rgba(215,255,50,0.08) !important;
+  color: var(--teal) !important;
+}
+
+/* =========================================================
+   EXPANDERS (Meals / Exercises accordions)
+   Streamlit's default light-theme "summary/details" was leaking
+   through with a white background + near-white text. Force our
+   dark theme on the header, body, icon and every text node inside.
+========================================================= */
+
+[data-testid="stExpander"] {
+  background-color: var(--surface-2) !important;
+  border: 1px solid var(--border-soft) !important;
+  border-radius: var(--radius-sm) !important;
+}
+
+[data-testid="stExpander"] summary,
+[data-testid="stExpander"] details > summary {
+  background-color: var(--surface-2) !important;
+  color: var(--text) !important;
+}
+
+[data-testid="stExpander"] summary:hover {
+  background-color: rgba(215,255,50,0.06) !important;
+  color: var(--teal) !important;
+}
+
+[data-testid="stExpander"] summary p,
+[data-testid="stExpander"] summary span,
+[data-testid="stExpander"] summary div {
+  color: inherit !important;
+}
+
+[data-testid="stExpanderDetails"] {
+  background-color: var(--surface-2) !important;
+  color: var(--text) !important;
+}
+
+[data-testid="stExpanderDetails"] p,
+[data-testid="stExpanderDetails"] li,
+[data-testid="stExpanderDetails"] span,
+[data-testid="stExpanderDetails"] div {
+  color: var(--text) !important;
+}
+
+[data-testid="stExpanderIcon"] svg {
+  fill: var(--muted) !important;
+}
+
+[data-testid="stExpander"] summary:hover [data-testid="stExpanderIcon"] svg {
+  fill: var(--teal) !important;
+}
+
+/* =========================================================
+   SELECT / DROPDOWN VALUE TEXT
+   The currently-selected value text was inheriting a muted/gray
+   color from BaseWeb's default styles, making it hard to read
+   against the dark background.
+========================================================= */
+
+[data-baseweb="select"] > div,
+[data-baseweb="select"] > div > div,
+[data-baseweb="select"] span,
+[data-testid="stSelectbox"] [data-baseweb="select"] div {
+  color: var(--text) !important;
+}
+
+/* The dropdown list is a portal rendered outside the widget, using
+   role="listbox"/"option" (virtualised rows, NOT <li> tags), so it
+   must be targeted directly and given a high z-index or it renders
+   with the browser's default white background and gets visually
+   overlapped by page content underneath it. */
+[data-baseweb="popover"] {
+  z-index: 999999 !important;
+}
+
+[data-baseweb="popover"],
+[data-baseweb="menu"],
+[role="listbox"] {
+  background-color: var(--surface-2) !important;
+  border: 1px solid var(--border-soft) !important;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5) !important;
+}
+
+[role="option"] {
+  background-color: var(--surface-2) !important;
+  color: var(--text) !important;
+}
+
+[role="option"] * {
+  color: inherit !important;
+  background-color: transparent !important;
+}
+
+[role="option"]:hover,
+[role="option"][data-highlighted="true"] {
+  background-color: rgba(215,255,50,0.1) !important;
+  color: var(--teal) !important;
+}
+
+[role="option"][aria-selected="true"] {
+  background-color: rgba(215,255,50,0.14) !important;
+  color: var(--teal) !important;
+  font-weight: 500 !important;
+}
+
+/* =========================================================
+   DATAFRAME / TABLE
+========================================================= */
+
+.stDataFrame,
+.stDataFrame div,
+.stDataFrameGlideDataEditor {
+  border-radius: var(--radius-sm) !important;
+  font-family: 'AdobeClean', sans-serif !important;
+}
+
+[data-testid="stTable"] table {
+  background-color: var(--surface-2) !important;
+  border: 1px solid var(--border-soft) !important;
+}
+
+[data-testid="stTable"] thead tr th {
+  background-color: var(--surface) !important;
+  color: var(--muted) !important;
+  text-transform: uppercase;
+  font-size: 0.75rem !important;
+  letter-spacing: 0.06em;
+  border-bottom: 1px solid var(--border) !important;
+}
+
+[data-testid="stTable"] tbody tr td {
+  color: var(--text) !important;
+  border-bottom: 1px solid var(--border-soft) !important;
+}
+
+[data-testid="stTable"] tbody tr:hover td {
+  background-color: rgba(215,255,50,0.04) !important;
+}
+
+/* =========================================================
+   INTERACTIVE ELEMENTS
+========================================================= */
+
+.stTextInput,
+.stTextArea,
+.stNumberInput,
+.stSlider,
+.stMultiselect,
+.stRadio,
+.stCheckbox,
+.stToggle,
+.stFileUploader,
+.stColorPicker,
+.stDateInput,
+.stTimeInput,
+.stCameraInput,
+[data-testid="stTextInput"] > div,
+[data-testid="stButton"] button,
+[data-testid="stBaseButton-secondaryFormSubmit"],
+[data-testid="stStatusWidget"] {
+  border-radius: var(--radius-sm) !important;
+  font-family: 'AdobeClean', sans-serif !important;
+}
+
+/* =========================================================
+   MARKDOWN
+========================================================= */
+
+[data-testid="stMarkdownContainer"] strong {
+  font-family: 'AdobeClean', sans-serif !important;
+  color: var(--teal);
+}
+
+/* =========================================================
+   FORM
+========================================================= */
+
+.stForm {
+  margin-top: 2rem !important;
+  padding: 1.5rem 1rem !important;
+  background-color: var(--surface-2) !important;
+  border: 1px solid var(--border-soft) !important;
+  color: var(--text);
+}
+
+/* =========================================================
+   LOGIN WALL (custom card)
+========================================================= */
+
+.trainora-login-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 12px;
+  border: 1px solid var(--border);
+  color: var(--teal);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.trainora-login-tag .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--teal);
+  display: inline-block;
+}
+
+.trainora-login-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 8px;
+  line-height: 1.1;
+}
+
+.trainora-login-sub {
+  color: var(--muted);
+  font-size: 1rem;
+  margin-bottom: 28px;
+}
+
+[data-baseweb="tab-list"] {
+  border-bottom: 1px solid var(--border-soft) !important;
+  gap: 4px !important;
+}
+
+[data-baseweb="tab"] {
+  background-color: transparent !important;
+  color: var(--muted) !important;
+  border-radius: var(--radius-sm) !important;
+  font-family: 'AdobeClean', sans-serif !important;
+}
+
+[data-baseweb="tab"]:hover {
+  color: var(--teal) !important;
+}
+
+[data-baseweb="tab"][aria-selected="true"] {
+  color: var(--teal) !important;
+}
+
+[data-baseweb="tab-highlight"] {
+  background-color: var(--teal) !important;
+}
+
+/* =========================================================
+   EMPTY STATE (dashed placeholder box on main page)
+========================================================= */
+
+.trainora-empty-state {
+  border: 1px dashed var(--border);
+  padding: 48px 32px;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  background-color: rgba(215,255,50,0.03);
+  box-shadow: 0 0 30px rgba(215,255,50,0.05) inset;
+}
+
+.trainora-empty-state h2 {
+  color: var(--text);
+  margin-bottom: 8px;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.trainora-empty-state p {
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.trainora-empty-state strong {
+  color: var(--teal);
+}
+
+/* =========================================================
+   COMPONENTS
+   Reusable building blocks used by services/ui/components.py
+   (page_header, section_header, stat_card, agent_card,
+   meal_card, workout_card, progress_card, empty_state, badge)
+========================================================= */
+
+.tr-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--lime);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.tr-tag .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--lime);
+  box-shadow: 0 0 8px var(--lime);
+  display: inline-block;
+}
+
+.tr-page-header {
+  margin-bottom: 6px;
+}
+
+.tr-page-title {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin: 0 0 6px 0;
+}
+
+.tr-page-subtitle {
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 640px;
+  margin: 0 0 8px 0;
+}
+
+.tr-section-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 30px 0 14px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.tr-section-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: 0.01em;
+}
+
+.tr-section-hint {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+/* --- Hero (Home) --- */
+
+.tr-hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 40px 44px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  background:
+    radial-gradient(120% 180% at 100% 0%, var(--lime-glow) 0%, transparent 55%),
+    linear-gradient(150deg, var(--surface-2) 0%, var(--surface) 70%);
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.tr-hero-copy { position: relative; z-index: 1; max-width: 100%; }
+
+.tr-hero-greeting {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.2;
+  margin: 4px 0 8px 0;
+}
+
+.tr-hero-sub {
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+/* --- Generic card --- */
+
+.tr-card {
+  border: 1px solid var(--border-soft);
+  background-color: var(--surface-2);
+  border-radius: var(--radius-md);
+  padding: 22px;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+/* --- Stat card (progress / quick numbers) --- */
+
+.tr-stat-card {
+  border: 1px solid var(--border-soft);
+  background-color: var(--surface-2);
+  border-radius: var(--radius-md);
+  padding: 18px 20px;
+  border-left: 3px solid var(--lime);
+  height: 100%;
+}
+
+.tr-stat-label {
+  color: var(--muted);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-bottom: 6px;
+}
+
+.tr-stat-value {
+  color: var(--text);
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.tr-stat-value .unit {
+  color: var(--muted);
+  font-size: 0.95rem;
+  font-weight: 400;
+  margin-left: 4px;
+}
+
+.tr-stat-caption {
+  color: var(--lime);
+  font-size: 0.8rem;
+  margin-top: 6px;
+}
+
+/* --- Agent card (Home dashboard) --- */
+
+.tr-agent-card {
+  position: relative;
+  border: 1px solid var(--border-soft);
+  background-color: var(--surface-2);
+  border-radius: var(--radius-lg);
+  padding: 20px 24px 26px;
+  height: 100%;
+  min-height: 320px;
+  overflow: hidden;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.tr-agent-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(120% 120% at 0% 0%, var(--lime-glow), transparent 60%);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.tr-agent-card:hover {
+  border-color: var(--lime);
+  box-shadow: 0 0 26px var(--lime-glow);
+  transform: translateY(-4px);
+}
+
+.tr-agent-card:hover::before { opacity: 1; }
+
+.tr-agent-card-featured {
+  border-color: rgba(215,255,50,0.35);
+  background:
+    radial-gradient(140% 160% at 100% 0%, var(--lime-glow) 0%, transparent 60%),
+    linear-gradient(150deg, var(--surface-3) 0%, var(--surface-2) 75%);
+  box-shadow: 0 0 22px var(--lime-glow);
+}
+
+.tr-agent-card-featured:hover {
+  border-color: var(--lime);
+  box-shadow: 0 0 34px var(--lime-glow);
+}
+
+.tr-agent-badge {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  z-index: 1;
+  background: var(--lime);
+  color: var(--on-lime);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+
+/* --- Equal-height card rows (stat cards / agent cards) ---
+   Streamlit columns don't stretch to match each other's content height
+   by default, so a card with a longer description ends up taller than
+   its neighbors and the "Open ..." button below it drops out of line
+   with the other two. Force the row + each column to stretch, and clamp
+   the description to a fixed number of lines so every card is the same
+   height regardless of how long its text is. */
+div[data-testid="stHorizontalBlock"]:has(.tr-agent-card),
+div[data-testid="stHorizontalBlock"]:has(.tr-stat-card) {
+  align-items: stretch !important;
+}
+
+div[data-testid="stHorizontalBlock"]:has(.tr-agent-card) > div[data-testid="stColumn"],
+div[data-testid="stHorizontalBlock"]:has(.tr-stat-card) > div[data-testid="stColumn"] {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+div[data-testid="stHorizontalBlock"]:has(.tr-agent-card) > div[data-testid="stColumn"] > div,
+div[data-testid="stHorizontalBlock"]:has(.tr-stat-card) > div[data-testid="stColumn"] > div {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 1 auto !important;
+}
+
+.tr-agent-title {
+  font-size: 1.18rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 8px;
+  position: relative;
+  z-index: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tr-agent-mascot {
+  display: block;
+  width: 100%;
+  max-height: 150px;
+  object-fit: contain;
+  object-position: center;
+  margin: -6px 0 10px 0;
+  position: relative;
+  z-index: 1;
+  filter: drop-shadow(0 10px 18px rgba(0,0,0,0.4));
+}
+
+.tr-agent-desc {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  min-height: 66px;
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* --- Meal card (Diet Planner) --- */
+
+.tr-meal-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.tr-meal-name {
+  font-weight: 700;
+  color: var(--text);
+}
+
+.tr-meal-kcal {
+  color: var(--lime);
+  font-weight: 600;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.tr-macro-row {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+.tr-macro-pill {
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--surface-3);
+  border: 1px solid var(--border-soft);
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+/* --- Workout / exercise card --- */
+
+.tr-exercise-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.tr-exercise-row b { color: var(--text); }
+
+/* --- Progress card --- */
+
+.tr-progress-card {
+  border: 1px solid var(--border-soft);
+  background-color: var(--surface-2);
+  border-radius: var(--radius-md);
+  padding: 20px 22px;
+}
+
+.tr-progress-bar-track {
+  width: 100%;
+  height: 8px;
+  border-radius: 999px;
+  background: var(--surface-3);
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.tr-progress-bar-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--lime-dim), var(--lime));
+  box-shadow: 0 0 12px var(--lime-glow);
+}
+
+/* --- Badge --- */
+
+.tr-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border: 1px solid var(--border);
+  background: var(--surface-3);
+  color: var(--muted);
+}
+
+.tr-badge.good  { color: var(--lime); border-color: var(--lime); background: var(--lime-glow); }
+.tr-badge.warn  { color: #ffcf5c; border-color: rgba(255,207,92,0.5); background: rgba(255,207,92,0.1); }
+.tr-badge.bad   { color: var(--danger); border-color: var(--danger); background: var(--danger-glow); }
+.tr-badge.live  { color: var(--danger); border-color: var(--danger); background: var(--danger-glow); }
+
+.tr-badge.live .dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: var(--danger);
+  animation: tr-pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes tr-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.35; transform: scale(0.75); }
+}
+
+/* --- Empty state polish (extends .trainora-empty-state) --- */
+
+.trainora-empty-state {
+  border-radius: var(--radius-lg);
+}
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 900px) {
+  .block-container {
+    padding: 28px 1.2rem 48px !important;
+    max-width: 100% !important;
+  }
+  .tr-hero {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 26px 22px;
+  }
+  .tr-hero-copy { max-width: 100%; }
+  .tr-page-title { font-size: 1.6rem; }
+  div[data-testid="stButton"] button,
+  div[data-testid="stFormSubmitButton"] button {
+    width: 100% !important;
+  }
+  [data-testid="column"] { width: 100% !important; flex: 1 1 100% !important; }
+}
+
+@media (max-width: 480px) {
+  .tr-agent-desc { min-height: unset; }
+  .tr-stat-value { font-size: 1.35rem; }
+}
+
+/* Prevent horizontal overflow anywhere in the app shell */
+.stApp, .block-container { overflow-x: hidden; }
+img { max-width: 100%; height: auto; }
+
+/* =========================================================
+   ACCESSIBILITY
+========================================================= */
+
+button:focus-visible,
+[data-baseweb="select"]:focus-within > div,
+[data-baseweb="input"]:focus-within,
+a:focus-visible {
+  outline: 2px solid var(--lime) !important;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}
+
+/* =========================================================
+   LOGIN SCREEN — centered card, mascot floating beside it
+   .tr-login-shell is a zero-size marker written just before the
+   st.columns() row, so every rule below is scoped with the
+   adjacent-sibling combinator / ":has()" and can never leak onto
+   any other page's columns, tabs, inputs, or buttons.
+========================================================= */
+
+.tr-login-shell { display: none; }
+
+div[data-testid="stAppViewContainer"] .block-container:has(.tr-login-shell) {
+  max-width: 900px !important;
+  margin: 0 auto !important;
+  padding: 3.5vh 24px 40px !important;
+  display: flex;
+  align-items: center;
+  min-height: 92vh;
+}
+
+/* The row itself just centers its two children vertically */
+.tr-login-shell + div[data-testid="stHorizontalBlock"] {
+  align-items: center !important;
+  width: 100%;
+  animation: tr-login-rise .6s cubic-bezier(.19,1,.22,1) both;
+}
+
+@keyframes tr-login-rise {
+  from { opacity: 0; transform: translateY(18px) scale(0.99); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* --- Mascot pane (left, purely decorative) --- */
+
+.tr-login-mascot-pane {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 320px;
+}
+
+.tr-login-mascot-glow {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--lime-glow) 0%, transparent 72%);
+  filter: blur(4px);
+  animation: tr-glow-pulse 6s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes tr-glow-pulse {
+  0%, 100% { opacity: 0.45; transform: scale(1); }
+  50%      { opacity: 1;    transform: scale(1.1); }
+}
+
+.tr-login-floating-mascot {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 260px;
+  filter: drop-shadow(0 18px 30px rgba(0,0,0,0.55)) drop-shadow(0 0 24px var(--lime-glow));
+  animation: tr-float 5.5s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes tr-float {
+  0%, 100% { transform: translateY(0px); }
+  50%      { transform: translateY(-16px); }
+}
+
+/* --- Card pane (right, the actual auth card) --- */
+
+.tr-login-shell + div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"]:nth-of-type(2) {
+  padding: 8px 4px !important;
+}
+
+.tr-login-form-head {
+  margin-bottom: 6px;
+}
+
+.tr-login-shell + div[data-testid="stHorizontalBlock"] [data-testid="stTabs"] {
+  max-width: 460px;
+}
+
+/* Kill the default boxed border/shadow Streamlit/BaseWeb draws around the
+   tab list — we only want the lime underline on the active tab.
+   Note: BaseWeb renders the box as a background-colored bar on a
+   separate [data-baseweb="tab-border"] element, not a CSS border, so we
+   have to zero that one out specifically (border:none alone won't touch it). */
+.tr-login-shell + div[data-testid="stHorizontalBlock"] [data-testid="stTabs"],
+.tr-login-shell + div[data-testid="stHorizontalBlock"] [data-baseweb="tabs"],
+.tr-login-shell + div[data-testid="stHorizontalBlock"] [data-baseweb="tab-list"],
+.tr-login-shell + div[data-testid="stHorizontalBlock"] [data-baseweb="tab"] {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  outline: none !important;
+}
+
+.tr-login-shell + div[data-testid="stHorizontalBlock"] [data-baseweb="tab-border"] {
+  background: transparent !important;
+  height: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Give the form fields a card look consistent with the mock */
+.tr-login-shell + div[data-testid="stHorizontalBlock"] .stForm {
+  border-radius: var(--radius-lg) !important;
+  max-width: 460px;
+}
+
+/* Input focus glow, scoped to the login forms only */
+.tr-login-shell + div[data-testid="stHorizontalBlock"] [data-baseweb="input"] {
+  transition: box-shadow .25s ease, border-color .25s ease, transform .15s ease;
+}
+
+.tr-login-shell + div[data-testid="stHorizontalBlock"] [data-baseweb="input"]:focus-within {
+  box-shadow: 0 0 0 3px var(--lime-glow) !important;
+  transform: translateY(-1px);
+}
+
+/* Button shimmer sweep on hover, scoped to the login forms only */
+.tr-login-shell + div[data-testid="stHorizontalBlock"] div[data-testid="stFormSubmitButton"] button {
+  position: relative;
+  background-image: linear-gradient(115deg, transparent 20%, rgba(255,255,255,0.55) 50%, transparent 80%) !important;
+  background-repeat: no-repeat !important;
+  background-size: 220% 100% !important;
+  background-position: 150% 0 !important;
+  transition: background-position .7s ease, box-shadow .2s ease, transform .15s ease !important;
+}
+
+.tr-login-shell + div[data-testid="stHorizontalBlock"] div[data-testid="stFormSubmitButton"] button:hover {
+  background-position: -50% 0 !important;
+  transform: translateY(-1px);
+}
+
+.tr-login-shell + div[data-testid="stHorizontalBlock"] div[data-testid="stFormSubmitButton"] button:active {
+  transform: translateY(0);
+}
+
+/* --- Responsive: stack mascot above the card on narrow screens --- */
+
+@media (max-width: 900px) {
+  div[data-testid="stAppViewContainer"] .block-container:has(.tr-login-shell) {
+    padding: 16px 14px 32px !important;
+    min-height: unset;
+  }
+  .tr-login-shell + div[data-testid="stHorizontalBlock"] {
+    flex-direction: column !important;
+  }
+  .tr-login-shell + div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"] {
+    width: 100% !important;
+    flex: 1 1 100% !important;
+  }
+  .tr-login-mascot-pane { min-height: 180px; margin-bottom: -12px; }
+  .tr-login-floating-mascot { max-width: 150px; }
+  .tr-login-mascot-glow { width: 200px; height: 200px; }
+}
+
+@media (max-width: 480px) {
+  .tr-login-form-head .trainora-login-title { font-size: 1.6rem; }
+  .tr-login-floating-mascot { max-width: 120px; }
+  .tr-login-mascot-pane { min-height: 140px; }
+}
+
+/* --- Persistent top bar: brand wordmark + account menu --- */
+
+.tr-topbar-marker { display: none; }
+
+.tr-topbar-marker + div[data-testid="stHorizontalBlock"] {
+  padding-bottom: 18px;
+  margin-bottom: 26px;
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.tr-topbar-marker + div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"]:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tr-topbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 1.02rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--text);
+}
+
+.tr-topbar-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: var(--lime);
+  box-shadow: 0 0 8px var(--lime-glow);
+}
+
+/* The trigger's label text is a single space (hidden below) — the visible
+   glyph is a hand-drawn user-icon baked into two color variants (idle /
+   hover) as a background-image, so it's always perfectly centered
+   (background-position:center, independent of any text node) and never
+   depends on an external icon font/CDN. */
+div[data-testid="stPopover"] > div > button {
+  border-radius: 999px !important;
+  width: 42px !important;
+  height: 42px !important;
+  padding: 0 !important;
+  background-color: var(--surface-2) !important;
+  border: 1px solid var(--border) !important;
+  font-size: 0 !important;
+  color: transparent !important;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23929a8e' d='M12 12.75c2.9 0 5.25-2.35 5.25-5.25S14.9 2.25 12 2.25 6.75 4.6 6.75 7.5s2.35 5.25 5.25 5.25Zm0 2.25c-3.87 0-9 1.79-9 5.25v1.5h18v-1.5c0-3.46-5.13-5.25-9-5.25Z'/%3E%3C/svg%3E") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: 20px 20px !important;
+}
+
+div[data-testid="stPopover"] > div > button:hover {
+  border-color: var(--lime) !important;
+  box-shadow: 0 0 14px var(--lime-glow) !important;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23d7ff32' d='M12 12.75c2.9 0 5.25-2.35 5.25-5.25S14.9 2.25 12 2.25 6.75 4.6 6.75 7.5s2.35 5.25 5.25 5.25Zm0 2.25c-3.87 0-9 1.79-9 5.25v1.5h18v-1.5c0-3.46-5.13-5.25-9-5.25Z'/%3E%3C/svg%3E") !important;
+}
+
+/* --- Popover dropdown panel (username / Home / My Profile / Logout) ---
+   The panel shell ([data-baseweb="popover"]) is already dark (see the
+   SELECT/DROPDOWN rules above), but Streamlit wraps each st.markdown /
+   st.button call inside its own block/element container, and those
+   inner containers were falling back to a default white background
+   since they sit in a portal outside .block-container's scoped rules.
+   A blanket "everything transparent" reset is the only fully reliable
+   fix (testid names vary by Streamlit version) — it's safe because our
+   button-key selectors below are far more specific and still win. */
+[data-baseweb="popover"] * {
+  background-color: transparent !important;
+}
+
+[data-baseweb="popover"] {
+  background-color: var(--surface-2) !important;
+  padding: 8px !important;
+  width: 135px !important;
+  min-width: 135px !important;
+}
+
+/* Every row (divider, each button) gets one consistent, tight gap
+   below it, so the panel doesn't look tighter in one place and
+   looser in another. The last row's extra gap is then removed. */
+[data-baseweb="popover"] [data-testid="stElementContainer"] {
+  margin: 0 0 6px 0 !important;
+}
+
+[data-baseweb="popover"] [data-testid="stElementContainer"]:last-child {
+  margin-bottom: 0 !important;
+}
+
+[data-baseweb="popover"] [data-testid="stMarkdownContainer"] {
+  padding: 0 4px !important;
+}
+
+[data-baseweb="popover"] [data-testid="stMarkdownContainer"] p,
+[data-baseweb="popover"] [data-testid="stMarkdownContainer"] strong {
+  color: var(--text) !important;
+}
+
+[data-baseweb="popover"] hr {
+  border-color: var(--border-soft) !important;
+  margin: 0 !important;
+}
+
+[data-baseweb="popover"] div[data-testid="stButton"] {
+  margin: 0 !important;
+}
+
+/* Locks the dropdown buttons' own size/spacing so no page-specific
+   button CSS (e.g. the My Profile wizard's choice-card buttons) can
+   ever leak in and make this menu look different page to page. */
+[data-baseweb="popover"] div[data-testid="stButton"] button {
+  padding: 0.5rem 0.5rem !important;
+  font-size: 0.85rem !important;
+  margin: 0 !important;
+  min-height: 2.35rem !important;
+}
+
+[data-baseweb="popover"] div[data-testid="stButton"] button {
+  min-height: 2.5rem !important;
+}
+
+/* --- Integrated workout planner image/card styles --- */
+/* --- Meal card (Diet Planner) --- */
+
+.tr-meal-card-head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.tr-meal-card-head-left{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.tr-meal-icon{
+  width: 40px;
+  height: 40px;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  border-radius: 12px;
+  background: var(--lime-glow);
+  border: 1px solid rgba(215,255,50,0.35);
+}
+.tr-meal-name{
+  font-weight: 700;
+  color: var(--text);
+  font-size: 1.05rem;
+}
+.tr-meal-kcal{
+  color: var(--lime);
+  font-weight: 600;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+/* --- Plan total bar (highlighted one-line summary) --- */
+
+.tr-plan-total-bar{
+  border: 1px solid var(--border-soft);
+  border-left: 3px solid var(--lime);
+  background-color: var(--surface-2);
+  border-radius: var(--radius-sm);
+  padding: 12px 18px;
+  font-size: 0.88rem;
+  color: var(--text);
+  margin: 4px 0 22px 0;
+}
+.tr-plan-total-bar b{ color: var(--lime); font-weight: 700; }
+.tr-meal-card{
+  border: 1px solid var(--border-soft);
+  background-color: var(--surface-2);
+  border-radius: var(--radius-lg, 18px);
+  padding: 24px 26px 26px;
+  height: 100%;
+  animation: tr-fade-up 0.35s ease both;
+}
+.tr-meal-eyebrow{
+  color: var(--muted);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  margin-bottom: 3px;
+}
+.tr-rest-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 46px 26px;
+  background: radial-gradient(120% 140% at 50% 0%, rgba(215,255,50,0.06), var(--surface-2) 60%);
+}
+.tr-rest-icon{
+  font-size: 2.4rem;
+  width: 76px;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--surface-3);
+  border: 1px solid var(--border-soft);
+  margin-bottom: 14px;
+}
+.tr-rest-copy{
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.5;
+  margin: 14px 0 2px 0;
+  max-width: 320px;
+}
+/* --- Item grid inside a plan card (exercises with big demo photos) --- */
+
+.tr-dish-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 20px;
+  margin: 20px 0 6px 0;
+}
+.tr-dish-item{
+  min-width: 0;
+  animation: tr-fade-up 0.4s ease both;
+}
+.tr-dish-thumb-wrap{
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background-color: var(--surface-3);
+  border: 1px solid var(--border-soft);
+  margin-bottom: 10px;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+}
+.tr-dish-item:hover .tr-dish-thumb-wrap{
+  border-color: var(--lime);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.35), 0 0 0 1px var(--lime-glow);
+  transform: translateY(-4px);
+}
+.tr-dish-thumb{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.tr-dish-item:hover .tr-dish-thumb{
+  transform: scale(1.08);
+}
+.tr-dish-thumb-empty{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+.tr-dish-num{
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: rgba(21,25,21,0.85);
+  color: var(--lime);
+  border: 1px solid rgba(215,255,50,0.5);
+  font-size: 0.72rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(2px);
+}
+.tr-dish-meta{
+  color: var(--lime-dim);
+  font-size: 0.78rem;
+  font-weight: 500;
+}
+.tr-plan-footnote{
+  color: var(--muted);
+  font-size: 0.82rem;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border-soft);
+}
+.tr-plan-footnote b{ color: var(--text); }
+/* --- Warmup / Cooldown note strip (bigger than a plain footnote) --- */
+
+.tr-day-notes{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-top: 22px;
+}
+@media (max-width: 700px){
+  .tr-day-notes { grid-template-columns: 1fr; }
+}
+.tr-day-note{
+  background: var(--surface-3);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+}
+.tr-day-note-head{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+.tr-day-note-icon{ font-size: 1rem; }
+.tr-day-note-label{
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--lime);
+}
+.tr-day-note p{
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.86rem;
+  line-height: 1.5;
+}

@@ -1,0 +1,4 @@
+body_build,internal_type,calorie_adjustment,protein_priority,carb_priority,fat_priority,fiber_priority,food_selection_strategy
+Lean / Slim Build,Ectomorph,75,high,high,medium,medium,"Favor calorie-dense, nutrient-dense whole foods and adequate protein at every meal so total intake is easier to hit; complex carbs and healthy fats are welcome."
+Athletic / Muscular Build,Mesomorph,0,high,medium,medium,medium,"Favor a balanced spread of protein, carbs and fats each meal; slightly favor protein-rich and muscle-supportive foods without skewing the plan toward any one macro."
+Broad / Higher Body-Fat Build,Endomorph,-75,high,medium,low,high,"Favor high-protein, high-fiber, nutrient-dense foods with controlled calorie density; favor foods that are filling relative to their calories."

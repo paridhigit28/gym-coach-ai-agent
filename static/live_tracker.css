@@ -1,0 +1,130 @@
+/* =========================================================
+   LIVE COACH — page-specific styles only.
+   Base theme, buttons, inputs, metrics, alerts, etc. are all
+   already provided by static/style.css (loaded first on this
+   page). This file used to duplicate ~500 lines of that theme;
+   it now only holds the live-session dashboard layout that is
+   unique to this page.
+   ========================================================= */
+
+/* --- Setup / session control panel (was previously stuck in
+   the hidden sidebar — moved into the main layout) --- */
+
+.tr-live-panel {
+  border: 1px solid var(--border-soft);
+  background-color: var(--surface-2);
+  border-radius: var(--radius-md);
+  padding: 20px 22px;
+  margin-bottom: 22px;
+}
+
+.tr-live-panel-title {
+  color: var(--muted);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 12px;
+}
+
+/* --- Camera / webcam frame --- */
+
+.tr-camera-frame {
+  position: relative;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background:
+    radial-gradient(120% 140% at 50% 0%, var(--lime-glow) 0%, transparent 60%),
+    var(--surface);
+  padding: 10px;
+  margin-bottom: 18px;
+  box-shadow: 0 0 40px rgba(0,0,0,0.35) inset;
+}
+
+.tr-camera-frame [data-testid="stVerticalBlock"] video,
+.tr-camera-frame video {
+  border-radius: calc(var(--radius-lg) - 6px) !important;
+}
+
+.tr-live-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+/* --- Rep / set readout strip --- */
+
+.tr-readout-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.tr-readout {
+  border: 1px solid var(--border-soft);
+  background: var(--surface-2);
+  border-radius: var(--radius-md);
+  padding: 14px 16px;
+  text-align: center;
+}
+
+.tr-readout-value {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: var(--lime);
+  line-height: 1.1;
+}
+
+.tr-readout-label {
+  color: var(--muted);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-top: 4px;
+}
+
+/* --- Form-quality grid (knee angle / back angle / depth, etc.) --- */
+
+.tr-form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+}
+
+.tr-form-metric {
+  border: 1px solid var(--border-soft);
+  background: var(--surface-2);
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tr-form-metric-label {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.tr-form-metric-value {
+  color: var(--text);
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+/* --- Session history table wrapper --- */
+
+.tr-history-wrap [data-testid="stTable"] table {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+/* Responsive: stack readouts on small screens, keep camera usable */
+@media (max-width: 700px) {
+  .tr-readout-row { grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .tr-readout-value { font-size: 1.4rem; }
+  .tr-camera-frame { padding: 6px; border-radius: var(--radius-md); }
+}

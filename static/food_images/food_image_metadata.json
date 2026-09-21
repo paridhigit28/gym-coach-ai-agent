@@ -1,0 +1,9 @@
+{
+  "source_excel": "food_database_final_with_corrected_images_FIXED.xlsx",
+  "food_count": 1014,
+  "embedded_images_from_excel": 1013,
+  "fallback_images": 1,
+  "active_db_image_records": 1014,
+  "image_size_px": "120x88",
+  "note": "The supplied Excel contains one food (Mixed dal) without an embedded image; the project retains a real existing mixed-dal-family fallback so no UI image is missing."
+}

@@ -1,0 +1,1015 @@
+food_name,calories_per_g,protein_g_per_g,carbs_g_per_g,fat_g_per_g,fiber_g_per_g,sugar_g_per_g,vegetarian,vegan,gluten_free,dairy_free,egg_free,peanut_free,tree_nut_free,soy_free,fish_free,shellfish_free,classification_method
+Hot tea (Garam Chai),0.1614,0.0039,0.0258,0.0053,0,0.0258,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Instant coffee,0.2316,0.0064,0.0365,0.0075,0,0.0362,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Espreso coffee,0.5154,0.0175,0.0662,0.0214,0,0.0653,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Iced tea,0.1101,0.0003,0.027,0.0001,0,0.027,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Raw mango drink (Aam panna),0.3592,0.0016,0.0905,0.0003,0.0061,0.0749,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Fruit Punch (with fresh juices),0.3835,0.0014,0.0938,0.0003,0.0006,0.0925,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Fruit Punch (with squashes),0.2442,0.0007,0.0599,0.0002,0.0017,0.0588,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Lemonade,0.2213,0.0003,0.0548,0.0001,0.0002,0.0547,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Lem-o-gin,0.2279,0.0008,0.0555,0.0003,0.0013,0.0538,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cumin infused water (Jeere/Zeere ka pani),0.0909,0.0017,0.0186,0.0011,0.0046,0.0146,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Coco pine cooler,0.3275,0.0056,0.0572,0.01,0.0026,0.0552,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Summer cooler,0.2356,0.0037,0.0543,0.0004,0.002,0.0521,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Hot cocoa,0.901,0.0336,0.0923,0.0456,0,0.0901,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cold coffee with ice cream,0.6785,0.0157,0.1124,0.0211,0.0001,0.1118,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Banana milkshake (Kele milkshake),0.6531,0.0184,0.0915,0.0237,0.0026,0.0796,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mango milkshake (Aam milkshake),0.569,0.0173,0.0723,0.0235,0.0026,0.0715,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pineapple milkshake (Ananas milkshake),0.5572,0.0166,0.0762,0.0223,0,0.076,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Orange milkshake (Narangi milkshake),0.5742,0.0186,0.0711,0.0252,0,0.0708,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Egg nog,0.9714,0.0478,0.0815,0.0511,0.0002,0.0806,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Sweet Lassi (Meethi lassi),0.3566,0.0129,0.0651,0.0068,0,0.0651,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Lassi (salted),0.1884,0.0135,0.0186,0.0072,0.0002,0.0184,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cheese and chilli sandwich ,2.1811,0.068,0.274,0.0978,0.0208,0.0238,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Egg sandwich (Ande ka sandwich),2.8596,0.0869,0.2916,0.158,0.0188,0.0186,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Cucumber sandwich (Kheere ka sandwich),1.886,0.048,0.2577,0.08,0.0245,0.0164,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cheese and pineapple sandwich (Cheese aur ananas ka sandwich),2.5771,0.082,0.291,0.128,0.0233,0.041,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cheese and tomato sandwich (Cheese aur tamatar ke sandwich),2.4332,0.0792,0.2692,0.1227,0.0197,0.0285,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chicken sandwich,2.5327,0.1312,0.2538,0.1175,0.0164,0.016,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Peanut and tomato sandwich (Moongfali aur tamatar ka sandwich),2.9143,0.0953,0.2854,0.1614,0.0403,0.0282,True,True,True,True,True,False,True,True,True,True,inferred_from_dish_name_keywords
+Rainbow sandwich,2.7275,0.0775,0.3426,0.1254,0.021,0.0405,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Club sandwich ,2.3532,0.0731,0.1851,0.1512,0.0181,0.0201,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vegetarian club sandwich,1.9833,0.0545,0.1968,0.1133,0.0206,0.0208,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pin wheel sandwich,3.1152,0.0877,0.14,0.2493,0.0093,0.0145,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Carrot apple sandwich (Gajar aur seb ka sandwich),2.1411,0.053,0.2904,0.0912,0.0366,0.053,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Salami sandwich,2.5559,0.087,0.2154,0.1551,0.0197,0.02,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vegetable and mayonnaise sandwich,2.4426,0.0447,0.232,0.154,0.0235,0.0235,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Egg and tomato sandwich (Ande aur tamatar ka sandwich),2.2211,0.0766,0.259,0.1051,0.0177,0.0209,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Sweet open sandwich,2.4425,0.0499,0.3924,0.0815,0.0236,0.1223,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mushroom and cheese sandwich (toasted),2.2742,0.0779,0.2101,0.1301,0.0228,0.0211,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cheese and tomato sandwich (toasted) (Cheese aur tamatar ke sandwich (toasted)),2.2458,0.0682,0.2142,0.1295,0.0178,0.0267,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pea potato sandwich (toasted) (Matar aloo ka sandwich),1.649,0.046,0.2517,0.0543,0.0289,0.0133,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Paneer pea sandwich (toasted) (Paneer matar ka sandwich),2.4956,0.124,0.2405,0.1198,0.0212,0.064,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chicken sandwich (toasted),1.6737,0.1208,0.1882,0.0532,0.0164,0.0213,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pea keema sandwich (toasted) (Matar aur keema ka sandwich),1.7178,0.1106,0.2026,0.0561,0.0245,0.0194,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Classic club sandwich,2.0083,0.0674,0.1849,0.1156,0.0162,0.0186,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sesame toast,4.9519,0.019,0.1115,0.4938,0.0132,0.0146,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cracked wheat porridge (Meetha daliya),0.8157,0.0264,0.0887,0.0408,0.0062,0.0512,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Semolina porridge (Suji/Rava daliya),1.0089,0.0375,0.1239,0.0408,0.007,0.0754,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Oatmeal Porridge,0.7285,0.026,0.0877,0.0322,0.0039,0.052,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cornflakes with milk,1.1733,0.0359,0.1495,0.0512,0.0078,0.0997,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Rice flakes (Chiwda/Aval),1.1244,0.0362,0.1557,0.0399,0.0037,0.0728,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Wheat flakes,1.1244,0.0362,0.1557,0.0399,0.0037,0.0728,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Murmura (Puffed rice),1.1332,0.0362,0.1567,0.0404,0.0028,0.0731,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Puffed wheat (Murmure/Moori),1.1332,0.0362,0.1567,0.0404,0.0028,0.0731,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Boiled egg (Ubla anda),1.55,0.126,0.0112,0.106,0,0,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Fried Egg ,1.96,0.136,0.0083,0.148,0,0,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Poached egg,1.47,0.125,0.0076,0.099,0,0,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Scrambled egg (Ande ki bhurji),1.5597,0.1029,0.0135,0.1221,0.0024,0.0108,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Baked egg ,2.1885,0.1188,0.1542,0.1265,0.0103,0.0166,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Plain omelette/omlet,2.7241,0.0966,0.0064,0.2574,0.0012,0.0051,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Stuffed egg omelette/omlet,2.0351,0.086,0.023,0.1777,0.0075,0.0157,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Pancake,2.0336,0.0568,0.2049,0.1082,0.0065,0.0332,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Keema pancake,1.7627,0.0901,0.0956,0.1125,0.0084,0.022,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vegetable pancake,1.2518,0.0387,0.1224,0.0657,0.0248,0.0209,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Jam and fruit pancake,1.6202,0.0379,0.2073,0.0701,0.0121,0.0785,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Khoa and coconut pancake,2.7198,0.0698,0.2732,0.1529,0.0165,0.1647,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Brown stock,0.2132,0.0195,0.0025,0.0138,0.0009,0.0014,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vegetable stock,0.176,0.003,0.0096,0.0138,0.0038,0.0044,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chicken stock,0.2988,0.0369,0.0037,0.0151,0.001,0.002,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Clear tomato soup (Tamatar ka soup),1.4294,0.0479,0.0345,0.1222,0.0196,0.0144,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Lentil soup,0.3117,0.0189,0.0077,0.0228,0.0077,0.0077,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chicken consomme (Clear chicken soup),0.4794,0.0346,0.0036,0.0363,0.0036,0.0036,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cream of tomato soup,0.9781,0.0296,0.0252,0.0843,0.0138,0.0181,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cream of green peas soup,1.2784,0.0483,0.0458,0.1002,0.0295,0.0161,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cream of spinach soup,1.0054,0.0339,0.0225,0.0867,0.0174,0.0113,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cream of mixed vegetable soup,1.2853,0.0684,0.0493,0.0905,0.0214,0.021,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cream of mushroom soup,1.1728,0.043,0.0242,0.1004,0.0134,0.0193,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chicken sweet corn soup,0.2832,0.0231,0.0026,0.0201,0.0026,0.0026,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Minestrone soup,0.4266,0.0261,0.0104,0.0312,0.0104,0.0101,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Egg drop soup,0.2664,0.0194,0.0016,0.0203,0.0016,0.0016,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Chinese cabbage and meat ball soup,5.3569,0.0521,0.0143,0.5657,0.0057,0.0037,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+French onion soup,0.5561,0.033,0.0124,0.0416,0.0101,0.0124,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Hot and sour soup,0.3151,0.0312,0.0178,0.0131,0.006,0.0066,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Talaumein soup,0.3563,0.0209,0.0086,0.0264,0.0086,0.0077,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cold cucumber soup (Thanda kheere ka soup),0.4803,0.0299,0.0458,0.0199,0.0088,0.0334,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Cold summer garden soup,0.4919,0.0246,0.0076,0.0404,0.0076,0.0046,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chapati/Roti,2.0231,0.0588,0.3565,0.0356,0.0631,0.01,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Plain parantha/paratha,2.983,0.0506,0.3069,0.1686,0.0543,0.0086,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Potato parantha/paratha (Aloo ka parantha/paratha),2.0504,0.037,0.2392,0.1022,0.0418,0.0115,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Radish parantha/paratha (Mooli ka parantha/paratha),1.8352,0.033,0.2054,0.0953,0.0432,0.0131,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cauliflower parantha/paratha (Phoolgobhi ka parantha/paratha),1.7807,0.0373,0.1884,0.0947,0.0468,0.0115,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Dal parantha/paratha,2.6824,0.0678,0.3003,0.1305,0.0646,0.0143,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sprouted moong parantha/paratha,2.2859,0.0429,0.2431,0.1243,0.0449,0.0147,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pea parantha/paratha (Matar ka parantha/paratha),1.9073,0.0559,0.2151,0.088,0.0561,0.0129,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Keema parantha/paratha,2.3809,0.0941,0.1836,0.1391,0.0344,0.0099,False,False,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Paneer parantha/paratha,2.6297,0.0798,0.2433,0.1462,0.04,0.0377,True,False,False,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Besan and spinach parantha/paratha (Besan aur palak ka parantha/paratha),2.1649,0.0554,0.2139,0.1209,0.0439,0.0131,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Poori,7.3763,0.0135,0.0822,0.7761,0.0146,0.0023,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Spinach poori (Palak poori),6.8425,0.0142,0.0776,0.7186,0.0155,0.0024,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Methi poori,7.1002,0.0145,0.0798,0.746,0.0161,0.0026,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Dal stuffed poori,7.8516,0.0208,0.1014,0.8169,0.0196,0.0029,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Potato stuffed poori (Aloo ki poori),7.7674,0.0152,0.094,0.8135,0.0164,0.0026,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Tandoori parantha/paratha,2.9537,0.0508,0.3074,0.1651,0.0544,0.0086,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Boiled rice (Uble chawal),1.1719,0.026,0.2572,0.0018,0.0125,0.0022,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Plain pulao,1.4021,0.0234,0.2182,0.0462,0.0169,0.0115,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mixed vegetable pulao,1.1305,0.0272,0.1749,0.0333,0.0267,0.0135,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mushroom pulao,1.2429,0.0252,0.1902,0.0403,0.0188,0.01,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sprouted moong pulao,1.1297,0.0219,0.1749,0.0361,0.0178,0.0143,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Paneer pulao,5.8191,0.0198,0.0876,0.5981,0.0062,0.0111,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Peanut pulao ,1.9328,0.0532,0.2118,0.0951,0.029,0.016,True,True,True,True,True,False,True,True,True,True,inferred_from_dish_name_keywords
+Navratan pulao,2.6171,0.062,0.3698,0.0945,0.0382,0.0252,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Green chickpeas pulao (Choliya pulao/Hare chane ka pulao),1.7343,0.0488,0.2757,0.0482,0.0315,0.0248,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mutton biryani/biriyani,1.9076,0.0738,0.225,0.0772,0.0242,0.0239,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vegetable biryani/biriyani,1.7461,0.0316,0.1856,0.0951,0.0331,0.0214,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+"Lemon rice (Pulihora, Elumichai sadam, Chitranna)",1.763,0.0426,0.2162,0.0788,0.0252,0.0078,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sweet rice (Meethe chawal),2.1541,0.021,0.4259,0.0457,0.0113,0.248,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Curd rice (Dahi bhaat/Dahi chawal/ Perugu annam/Daddojanam/Thayir saadam),1.9574,0.0575,0.3293,0.0432,0.0213,0.0391,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Tamarind rice (Chintapandu pulihora/Puliyodharai/Puli sadam/Huli anna),3.7304,0.0745,0.6508,0.0853,0.0512,0.1165,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Spanish rice,1.6424,0.0419,0.311,0.0223,0.0278,0.0126,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chinese fried rice,1.2058,0.0405,0.134,0.0543,0.0231,0.0147,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Macroni cheese pie,1.7063,0.0585,0.211,0.0748,0.004,0.034,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vegetable chowmein,1.2971,0.0307,0.1544,0.0636,0.0186,0.0197,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chicken chowmein,1.5133,0.0633,0.133,0.0823,0.0164,0.0163,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cheese noodle ring,1.3367,0.0622,0.1396,0.0612,0.0127,0.0284,True,False,False,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Spaghetti and cheese balls in tomato sauce,5.0832,0.0241,0.0782,0.5208,0.0059,0.0183,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Penne platter,1.774,0.0504,0.2087,0.0871,0.0109,0.045,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pasta hot pot,1.2517,0.0584,0.116,0.0647,0.008,0.0599,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chicken lasagne,1.8749,0.1045,0.139,0.1036,0.0011,0.0274,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Fettuccine with spinach sauce,1.2921,0.031,0.1219,0.0783,0.0077,0.0118,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Naan,2.8645,0.0805,0.5175,0.0499,0.0191,0.0559,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Bhatura,7.932,0.0163,0.1073,0.8256,0.0038,0.0069,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Idli,1.3754,0.0464,0.2818,0.0033,0.0231,0.0028,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Masala dosa,1.6458,0.0329,0.1957,0.0784,0.0252,0.0133,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Semolina dosa (Suji/Rava dosa),2.2705,0.073,0.3284,0.0712,0.0404,0.0437,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Onion tomato uttapam,4.6202,0.0191,0.1132,0.453,0.0126,0.008,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Paneer kaathi roll,2.8594,0.0692,0.201,0.1955,0.024,0.0329,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Makki ki roti,2.6397,0.0349,0.2419,0.1685,0.0519,0.007,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Washed moong dal (Dhuli moong ki dal),3.46,0.245,0.597,0.01,0.02,0.008,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Washed urad dal (Dhuli urad ki dal),3.48,0.248,0.59,0.014,0.022,0.008,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Split bengal gram with bottle gourd (Channa dal with ghiya/lauki),0.7325,0.0279,0.071,0.036,0.0272,0.0105,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Dry washed urad,1.2471,0.0685,0.1566,0.035,0.0406,0.0073,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mixed dal,0.6193,0.0251,0.0579,0.031,0.0162,0.0034,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Whole moong (Moong ki dal),3.47,0.24,0.599,0.012,0.041,0.012,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Whole masoor (Masoor ki dal),3.43,0.25,0.59,0.007,0.04,0.012,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Whole moth (Moth ki dal),3.43,0.236,0.5855,0.016,0.045,0.012,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Whole urad (Urad ki dal),3.47,0.25,0.58,0.016,0.043,0.012,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Moti mahal dal (Urad rajmah mix dal),1.0313,0.0393,0.0874,0.0566,0.0338,0.017,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Black channa curry/Bengal gram curry (Kale chane ki curry),1.4068,0.0567,0.1411,0.0661,0.0799,0.0236,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chickpeas curry (Safed channa curry),1.6343,0.061,0.1998,0.0684,0.0473,0.0478,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Lobia curry,1.4899,0.0606,0.1788,0.0562,0.0457,0.0251,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Soyabean curry,1.6328,0.1043,0.0676,0.1019,0.0676,0.0266,True,True,True,True,True,True,True,False,True,True,inferred_from_dish_name_keywords
+Kidney bean curry (Rajmah curry),1.4373,0.0595,0.1638,0.0577,0.0583,0.0249,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sambar,0.9692,0.0335,0.1057,0.0438,0.0352,0.0331,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Besan kadhi with pakodies,4.0335,0.0164,0.0356,0.4259,0.0081,0.0088,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Khatta channa,2.0257,0.063,0.2114,0.1056,0.0526,0.0475,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sprouted moong dal chat,0.3247,0.0135,0.0601,0.0032,0.0135,0.0157,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Potato cauliflower (Aloo gobhi),1.0618,0.019,0.0599,0.0813,0.0302,0.0044,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Potato capsicum (Shimla mirch aloo),1.2553,0.0141,0.0872,0.0933,0.0202,0.0054,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cabbage and peas (Pattagobhi aur matar),0.6388,0.0324,0.0624,0.0264,0.0399,0.0097,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Carrot and fenugreek leaves (Gajar methi),0.6192,0.021,0.0417,0.0381,0.0417,0.0211,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Potato fenugreek (Aloo methi),1.3515,0.0225,0.0847,0.1004,0.0293,0.0054,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Brinjal bhartha (Baingan ka bhartha),0.6512,0.0138,0.044,0.0448,0.0327,0.0182,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Dry potato (Sookhe aloo),1.0315,0.0162,0.1438,0.0418,0.0188,0.0033,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Beans with coconut (Nariyal aur sem/phali; Beans thoran),1.3163,0.0262,0.0439,0.1139,0.0439,0.0206,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cauliflower with coconut (Nariyal ke saath phoolgobhi),1.3211,0.0264,0.0399,0.1156,0.0399,0.0171,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Carrot and cabbage with coconut (Nariyal ke saath pattagobhi aur gajar),1.0661,0.0182,0.0499,0.0862,0.0452,0.0236,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Raw turnip with coconut ,1.3215,0.018,0.0578,0.1147,0.0279,0.044,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Raw papaya with coconut (Papaya thoran),1.3275,0.0154,0.0558,0.1142,0.0431,0.0382,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Stuffed okra (Bharwa bhindi),0.9434,0.0208,0.0385,0.0766,0.0385,0.0048,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Stuffed round gourd (Bharwa tinde),0.728,0.011,0.0402,0.0575,0.021,0.0196,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Stuffed capsicum (Bharwa shimla mirch),0.9094,0.0134,0.0826,0.057,0.0201,0.0121,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Stuffed brinjal (Bharwa baingan),0.93,0.0153,0.0396,0.0773,0.0396,0.0092,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Stuffed tomatoes (Bharwa tamatar),0.9335,0.0328,0.0619,0.0606,0.022,0.0268,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pea potato curry (Aloo matar),1.0092,0.0348,0.0974,0.0513,0.0361,0.0186,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pea paneer curry (Matar paneer),1.3483,0.0661,0.0929,0.0775,0.033,0.0389,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pea mushroom curry (Matar mushroom),0.933,0.0387,0.0741,0.0516,0.0386,0.0182,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pea curry (Matar ki sabzi),1.0299,0.0451,0.092,0.0511,0.0444,0.0198,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pea vadi curry,1.0195,0.0464,0.089,0.0508,0.0428,0.0192,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Paneer curry,1.7652,0.078,0.084,0.1238,0.014,0.0629,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Lotus stem curry (Kamal kakdi curry),1.1034,0.0153,0.0924,0.0725,0.0314,0.0209,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Gravy for kofta,1.2559,0.0175,0.0631,0.1035,0.0196,0.0373,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pea kofta curry (Matar kofta curry),5.9566,0.0201,0.0417,0.6339,0.017,0.0088,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Spinach kofta curry (Palak kofta curry),5.7178,0.0109,0.0356,0.6149,0.0092,0.0082,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Paneer kofta curry,6.7091,0.0239,0.0327,0.7206,0.004,0.0198,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Lotus stem kofta curry (Kamal kakdi kofta curry),6.3356,0.0096,0.0501,0.6776,0.0101,0.0088,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Raw banana kofta curry (Kela kofta curry),6.2727,0.0062,0.034,0.6798,0.0059,0.023,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cauliflower kofta curry (Phoolgobhi kofta curry),6.411,0.0104,0.0262,0.6962,0.01,0.0083,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cabbage kofta curry (Pattagobhi kofta curry),6.3981,0.0098,0.0287,0.694,0.009,0.0089,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Ghiya/Lauki Kofta Curry,6.3871,0.0089,0.0271,0.694,0.0083,0.0082,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Spinach paneer kofta curry (Palak paneer kofta curry),6.0603,0.0143,0.0294,0.6541,0.0075,0.0116,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vegetarian egg kofta curry,6.2741,0.0133,0.0426,0.6724,0.0064,0.0119,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Baked vegetables,0.8899,0.0367,0.0844,0.0444,0.0234,0.0256,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cauliflower musallam (Phoolgobhi musallam),0.5883,0.0189,0.0448,0.0355,0.0306,0.0171,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Baked vegetables with spinach ,0.7779,0.0322,0.0693,0.0403,0.0233,0.0209,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Baked potato with skin ,1.3577,0.0343,0.1111,0.085,0.012,0.0166,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Shepherd's pie (vegetarian),1.3563,0.0504,0.1203,0.073,0.0223,0.0278,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Baked brinjal in tomato sauce,0.3863,0.0158,0.0413,0.0162,0.0234,0.022,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Dum aloo,6.8233,0.007,0.0333,0.7401,0.0068,0.0071,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Spinach paneer (Palak paneer),0.7768,0.0403,0.0443,0.0476,0.0191,0.0255,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Methi chaman,4.7562,0.0154,0.0278,0.5091,0.0053,0.0179,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sarson ka saag,0.8784,0.03,0.0533,0.0586,0.0369,0.0075,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Jackfruit sabzi (Kathal ki sabzi),6.254,0.0069,0.034,0.676,0.0102,0.0259,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Avial,1.2456,0.0246,0.0847,0.0894,0.0544,0.0383,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Al yakhani,1.4754,0.0286,0.0465,0.1314,0.0127,0.0356,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Shahi paneer,1.565,0.0506,0.0664,0.1234,0.014,0.0501,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Paneer in butter sauce,1.4561,0.0699,0.097,0.0881,0.015,0.0749,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Methi malai paneer,1.9498,0.0734,0.0815,0.1476,0.0147,0.06,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chilli paneer,7.7751,0.021,0.0331,0.8401,0.005,0.015,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Paneer makhana korma,7.7582,0.0324,0.0463,0.8276,0.0021,0.0184,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Kadhai Paneer,1.0799,0.0433,0.0734,0.0681,0.0207,0.0554,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Roghan josh,1.3959,0.0956,0.0493,0.0902,0.0208,0.0266,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Spinach mutton (Palak mutton),0.8032,0.0574,0.0345,0.0471,0.0223,0.0142,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pea keema curry (Matar keema ki sabzi),1.33,0.0843,0.0624,0.0814,0.0296,0.0182,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Keema kofta curry,1.5445,0.0977,0.0564,0.1039,0.0151,0.0214,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Kashmiri mutton koftas (Gushtaba),0.9742,0.0633,0.0304,0.0677,0.0062,0.0213,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mutton yakhni,1.0413,0.0827,0.0084,0.077,0.0067,0.0013,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chicken yakhni,0.99,0.1066,0.0078,0.061,0.0062,0.0012,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mutton do piaza,1.833,0.0939,0.0414,0.1441,0.0193,0.029,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mutton chops,6.6364,0.0403,0.0148,0.7131,0.0017,0.0042,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Shammi kebab,6.8569,0.0452,0.0354,0.7261,0.0105,0.0031,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Scotch egg,6.7689,0.0405,0.0191,0.7262,0.0036,0.003,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Shepherd's pie (with minced meat),1.4278,0.0745,0.0806,0.0888,0.0105,0.017,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chicken curry,1.2922,0.1179,0.0338,0.0757,0.0141,0.0179,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Tandoori chicken,1.452,0.1626,0.0234,0.0793,0.005,0.0158,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Butter chicken,1.37,0.1092,0.0374,0.087,0.0132,0.0237,False,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chicken kebab,7.2941,0.0371,0.0111,0.7889,0.0021,0.0024,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chilli chicken,1.9883,0.0957,0.0286,0.1656,0.0099,0.0093,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Fried chicken with tomato sauce (Fried chicken tamatar ki chutney kay saath),1.2503,0.1148,0.0251,0.0761,0.0113,0.0116,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Fish curry (Machli curry),1.1113,0.0876,0.0377,0.0669,0.0189,0.0202,False,False,True,True,True,True,True,True,False,True,inferred_from_dish_name_keywords
+Fried fish (Indian style) (Tali hui machli),6.5854,0.0435,0.054,0.6888,0.0061,0.004,False,False,True,True,True,True,True,True,False,True,inferred_from_dish_name_keywords
+Fried fish and Chips (English Style) (Tali hui machli aur chips),6.5175,0.0336,0.0277,0.6969,0.0029,0.0017,False,False,True,True,True,True,True,True,False,True,inferred_from_dish_name_keywords
+Tomato fish,4.8979,0.0239,0.0318,0.5191,0.0072,0.0135,False,False,True,True,True,True,True,True,False,True,inferred_from_dish_name_keywords
+Baked fish with cheese sauce,1.1396,0.0864,0.0406,0.0702,0.0008,0.0322,False,False,True,False,True,True,True,True,False,True,inferred_from_dish_name_keywords
+Fish tikka,1.1733,0.16,0.0391,0.0415,0.0118,0.0118,False,False,True,True,True,True,True,True,False,True,inferred_from_dish_name_keywords
+Tandoori fish,0.9598,0.1119,0.0237,0.0464,0.0058,0.016,False,False,True,True,True,True,True,True,False,True,inferred_from_dish_name_keywords
+"Paneer, apple and pineapple salad",0.9508,0.0388,0.0835,0.0507,0.0165,0.0636,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Russian salad,1.1483,0.0426,0.065,0.0784,0.0257,0.0166,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pasta salad,1.9036,0.0415,0.127,0.1392,0.0096,0.026,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Deviled egg,0.9856,0.0497,0.0223,0.0772,0.0115,0.0082,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Hawain salad,1.7523,0.0427,0.1435,0.1137,0.0393,0.0524,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mixed pulse and vegetable salad,0.8312,0.0474,0.1396,0.0084,0.0296,0.0136,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sprouted moong salad ,0.3781,0.0229,0.0548,0.0074,0.0095,0.0213,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Tossed salad,0.6296,0.0102,0.0495,0.0422,0.0215,0.0156,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mixed vegetable salad with curd sauce,0.6028,0.0423,0.0703,0.015,0.0379,0.0216,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Potato salad (Aloo ka salaad),0.8991,0.014,0.1119,0.044,0.0132,0.0394,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Waldroff salad,1.4175,0.0147,0.1102,0.1005,0.0187,0.0823,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Coleslaw,0.7671,0.0124,0.0559,0.0532,0.0234,0.0362,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Fruit salad (Phalon ka salaad),0.7814,0.0091,0.1596,0.0122,0.0158,0.0978,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Tomato onion raita (Tamatar aur pyaaz ka raita),0.59,0.0374,0.0708,0.0184,0.0097,0.0598,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Peanut raita (Mungfali ka raita),1.5039,0.0859,0.093,0.0898,0.0189,0.0711,True,True,True,True,True,False,True,True,True,True,inferred_from_dish_name_keywords
+Sprouted moong raita ,0.6089,0.0462,0.0613,0.0219,0.0016,0.0559,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Bottle gourd raita (Ghiya/Lauki ka raita),0.5631,0.0398,0.0576,0.0207,0.0085,0.0525,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cucumber raita (Kheere ka raita),0.5913,0.0404,0.0635,0.0208,0.0086,0.0522,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Carrot and spinach raita (Gajar aur palak ka raita),0.5683,0.04,0.0583,0.0199,0.0139,0.0493,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mint raita (Pudinay ka raita),0.7759,0.0564,0.0765,0.0296,0.0034,0.0748,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Potato raita (Aloo ka raita),0.7538,0.0422,0.1024,0.0204,0.0075,0.0508,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Boondi raita,6.8772,0.0219,0.0396,0.7383,0.0046,0.0188,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sweet raita (Meetha raita),0.9924,0.0324,0.1793,0.0178,0.0102,0.1536,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Dahi vadas/Dahi bhalla,6.6773,0.0296,0.0549,0.704,0.0097,0.0178,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Gunjia,6.6734,0.0298,0.0568,0.7028,0.0113,0.0205,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Saunth/Sonth chutney with tamarind/imli,1.4153,0.0101,0.3355,0.0015,0.0093,0.3131,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Rice kheer (Chawal ki kheer),0.7503,0.023,0.1005,0.0297,0.0017,0.0802,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Makhana kheer,1.0785,0.0331,0.1288,0.05,0.0011,0.1154,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vermicelli kheer (Semiya/Seviyan ki kheer),1.2007,0.0335,0.1587,0.05,0.005,0.1279,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Semolina kheer (Suji/Rava kheer),1.1321,0.0343,0.1588,0.042,0.0051,0.1288,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Paneer kheer,1.0531,0.0453,0.1003,0.0537,0.0007,0.0987,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cabbage kheer (Pattagobhi ki kheer),0.8351,0.0287,0.0973,0.038,0.0051,0.0928,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Carrot kheer (Gajar ki kheer),0.8535,0.0281,0.1009,0.0385,0.0073,0.0963,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cauliflower kheer (Phoolgobhi ki kheer),0.8195,0.0304,0.0878,0.0395,0.0055,0.0849,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Moong dal kheer,0.7716,0.0295,0.0989,0.0297,0.004,0.0792,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Phirni,1.1612,0.0349,0.1611,0.0434,0.0036,0.1079,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Semolina halwa (Suji ka halwa),2.2565,0.0216,0.2467,0.1338,0.0186,0.1398,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Shahi suji halwa,3.8234,0.0348,0.4444,0.2173,0.0296,0.2721,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Carrot halwa (Gajar ka halwa),1.7264,0.0311,0.1853,0.0973,0.0265,0.1685,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Egg halwa (Ande ka halwa),2.9974,0.0785,0.3959,0.1341,0.0049,0.3785,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Potato halwa (Aloo ka halwa),1.5166,0.0153,0.2918,0.0348,0.0164,0.1742,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pumpkin halwa (Kaddu ka halwa),1.9027,0.0133,0.276,0.0881,0.0297,0.2664,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Moong dal halwa,3.498,0.0835,0.4023,0.1768,0.0265,0.2559,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Caramel custard (steamed),1.2158,0.0497,0.1502,0.0487,0,0.1498,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Baked custard,1.0653,0.0541,0.0945,0.053,0,0.0942,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Soft Custard (stirred),1.0918,0.0501,0.1119,0.0507,0,0.1115,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chocolate ice cream,1.777,0.0447,0.1541,0.1125,0,0.1533,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mango ice cream,1.2569,0.034,0.1114,0.0762,0.0052,0.1101,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Fruit Ice cream (Phalon ka Ice cream),1.7146,0.0437,0.1605,0.1038,0.0033,0.1403,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Caramel ice cream,1.7352,0.0431,0.1481,0.1115,0.0008,0.1452,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Lemon souffle,1.6851,0.0695,0.1343,0.1002,0,0.1167,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Orange souffle,1.6828,0.068,0.142,0.0973,0.0022,0.1231,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vanilla souffle,1.8785,0.0771,0.1478,0.1119,0,0.1286,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chocolate souffle,1.8932,0.0788,0.1474,0.1136,0,0.1269,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pineapple souffle ,1.9614,0.0806,0.1552,0.1172,0,0.1345,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Apple mousse,1.0692,0.0421,0.1277,0.0427,0.016,0.1056,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Rich chocolate mousse,1.8826,0.0796,0.1084,0.1219,0,0.103,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mango mousse,1.2498,0.0321,0.0914,0.0847,0.0088,0.0889,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Orange and pineapple cream,1.0118,0.0144,0.1196,0.0543,0.0103,0.1137,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Charlotte rousse,1.8829,0.0395,0.3408,0.0478,0.0101,0.2048,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Triffle pudding,1.1697,0.0293,0.1824,0.0393,0.0012,0.1389,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Snow flakes pudding,0.9521,0.0467,0.0807,0.0497,0.0003,0.0801,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Kulfi,0.9843,0.0321,0.113,0.047,0.0012,0.1039,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Steamed orange pudding,2.7803,0.0234,0.4153,0.1204,0.0058,0.2653,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Meringue and rice pudding,1.1293,0.0484,0.146,0.0405,0.0017,0.1087,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cheese pudding,2.8501,0.1129,0.1927,0.1837,0.0005,0.1863,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chocolate pudding,2.1196,0.0355,0.2959,0.0948,0.0053,0.2068,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Bread and butter pudding ,1.6794,0.0559,0.1963,0.0788,0.0098,0.1184,True,False,False,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Queen of pudding,1.3292,0.0551,0.1635,0.0538,0.0027,0.1177,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pineapple upside down pudding,2.5773,0.0315,0.3573,0.1191,0.008,0.2216,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Date and nut pie,3.2242,0.0393,0.4686,0.1331,0.0413,0.3118,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Stewed apple with custard,0.9287,0.0127,0.1836,0.0182,0.0101,0.1546,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Apple snowballs,1.0151,0.0086,0.2458,0.0031,0.0125,0.194,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Hot orange souffle,1.7997,0.0687,0.1877,0.0895,0.0029,0.1493,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Hot chocolate souffle,2.2609,0.067,0.2621,0.111,0.0012,0.2288,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Hot vanilla souffle,1.9293,0.0687,0.2177,0.0907,0.0013,0.1817,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Plain burfi (Burfi),4.0832,0.0982,0.3088,0.2796,0.0017,0.3043,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Coconut burfi (Nariyal ki burfi),4.6764,0.0881,0.3215,0.3463,0.035,0.315,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Bottle gourd burfi (Ghiya/Lauki burfi),2.7596,0.0586,0.2451,0.1768,0.0073,0.2392,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chocolate burfi,3.3933,0.13,0.3315,0.1786,0,0.3238,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cashewnut burfi (Kaju burfi/Kaju katli),4.2174,0.0548,0.3792,0.2846,0.0112,0.3143,True,True,True,True,True,True,False,True,True,True,inferred_from_dish_name_keywords
+Gram flour burfi (Besan burfi),4.2179,0.1119,0.4659,0.2241,0.0341,0.2844,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Semolina ladoo with khoya (Suji/Rava aur khoye ke ladoo ),4.2871,0.0671,0.5286,0.2186,0.0468,0.3328,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Semolina ladoo with coconut (Suji/Rava aur nariyal ke ladoo ),4.6443,0.0568,0.509,0.2703,0.0669,0.2732,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Gram flour ladoo (Besan ladoo),4.7691,0.0893,0.6261,0.2276,0.0443,0.3776,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sesame ladoo (Til ke ladoo),3.9696,0.107,0.435,0.1964,0.0772,0.3863,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chenna murki,2.5269,0.1046,0.3601,0.082,0,0.3555,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Milk cake,1.2741,0.0301,0.0913,0.0893,0.0006,0.089,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Ghujia/Lavang latika,7.6898,0.0186,0.13,0.7893,0.0052,0.0608,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Gulab Jamun with khoya,5.8606,0.0203,0.2609,0.5323,0.0007,0.2412,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mal pua,5.6668,0.0171,0.1756,0.5464,0.0062,0.1177,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Shahi tukre,1.9974,0.0276,0.4146,0.0254,0.0051,0.347,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Potato pakora/pakoda (Aloo pakoda),6.7719,0.019,0.0604,0.7184,0.0103,0.0022,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Onion pakora/pakoda (Pyaaz ke pakode),6.7461,0.019,0.0541,0.7184,0.0111,0.0088,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cauliflower pakora/pakoda (Phoolgobhi ke pakode),6.7163,0.0198,0.0452,0.7186,0.0126,0.0023,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mixed vegetable pakora/pakoda,6.7381,0.0194,0.0512,0.7186,0.0113,0.0038,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Spinach pakora/pakoda (Palak pakoda),7.1262,0.0196,0.0468,0.7638,0.0102,0.002,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Methi pakora/pakoda (Methi ke pakode),7.1325,0.0206,0.0468,0.7639,0.0118,0.0025,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Egg pakora/pakoda (Ande ke pakode),7.1051,0.0283,0.0448,0.7586,0.0086,0.0019,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Bread pakora/pakoda,7.1099,0.0257,0.0887,0.742,0.0111,0.0046,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Paneer pakora/pakoda,7.1812,0.0327,0.0552,0.7605,0.0089,0.0108,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Potato bonda (Aloo bonda),6.3284,0.0109,0.0453,0.678,0.0083,0.0027,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Potato samosa (Aloo ka samosa),5.7739,0.0171,0.0921,0.5919,0.0119,0.0029,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Minced meat samosa (Keema ka samosa),6.2099,0.0443,0.0614,0.6426,0.0039,0.005,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Paneer and pea samosa (Paneer matar ka samosa),6.2381,0.0402,0.0855,0.6365,0.0102,0.0169,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mathri,8.0512,0.0175,0.1232,0.831,0.006,0.0029,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Khasta kachori,7.1273,0.0251,0.1281,0.7227,0.0097,0.0034,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vegetable cutlet,6.6545,0.0125,0.0468,0.7133,0.0093,0.0035,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Flattened rice cutlet (Chirwa cutlet/Chivda cutlet/Poha cutlet),7.0171,0.0176,0.0739,0.7389,0.0086,0.0027,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Peanut cutlet (Mungfali ke cutlet),6.9877,0.0263,0.0568,0.74,0.0121,0.0051,True,True,True,True,True,False,True,True,True,True,inferred_from_dish_name_keywords
+Fish cutlet (Machli ka cutlet),6.5464,0.0277,0.0313,0.7011,0.0054,0.0029,False,False,True,True,True,True,True,True,False,True,inferred_from_dish_name_keywords
+Paneer potato cutlet (Paneer aloo cutlet),6.7294,0.0247,0.0523,0.714,0.0041,0.0102,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Spinach chickpeas cutlet (Palak channa dal cutlet),6.8803,0.0144,0.0493,0.736,0.0093,0.0016,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cheese toast,7.8537,0.0198,0.0549,0.8411,0.0031,0.0053,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vegetable burger,5.1993,0.0326,0.1369,0.5063,0.017,0.0188,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cheese pizza,2.495,0.0579,0.3062,0.1243,0.0195,0.0342,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vegetable seekh kebab,6.9073,0.0157,0.0532,0.7372,0.0059,0.0074,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Masala vada,8.2602,0.0169,0.0406,0.8915,0.0107,0.0024,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Peanut sago vada (Sabudana mungfali vada),7.4989,0.0101,0.0714,0.7982,0.0062,0.0019,True,True,True,True,True,False,True,True,True,True,inferred_from_dish_name_keywords
+Vegeterian scotch egg,6.8167,0.0216,0.0464,0.7277,0.0058,0.0023,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Paneer shaslik/tikka,0.9385,0.0511,0.0798,0.0449,0.0123,0.0461,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Peanut brittle (Moongfali ki chikki),3.2046,0.0694,0.4746,0.1113,0.0263,0.4392,True,True,True,True,True,False,True,True,True,True,inferred_from_dish_name_keywords
+Spring roll,6.2387,0.0181,0.0856,0.6463,0.0067,0.006,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Dry mango chutney (Sookhe aam ki chutney),2.9813,0.0243,0.6917,0.007,0.0374,0.6186,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Peanut chutney (Mungfali ki chutney),2.5837,0.118,0.0987,0.1906,0.0573,0.0276,True,True,True,True,True,False,True,True,True,True,inferred_from_dish_name_keywords
+Coconut chutney (Nariyal ki chutney),2.6592,0.0359,0.0829,0.25,0.0673,0.0379,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mint and coriander chutney (Pudinay aur dhaniye ki chutney),1.026,0.0281,0.2118,0.0051,0.0433,0.1588,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Custard tart,2.256,0.0372,0.2866,0.1073,0.0091,0.0931,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Lemon tart,3.0335,0.0612,0.3068,0.1745,0.0081,0.1068,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Jam tart,3.6072,0.0442,0.4618,0.1735,0.0114,0.1474,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Orange cream tart,1.9716,0.0258,0.2743,0.0872,0.0064,0.1008,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pineapple tart,1.954,0.0229,0.2862,0.0821,0.0087,0.1109,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cheese and mushroom tart,2.461,0.0551,0.2143,0.1528,0.0118,0.0316,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cottage cheese pie,2.3898,0.0745,0.2066,0.1383,0.0221,0.0362,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Minced meat pie,2.2155,0.0738,0.1811,0.1304,0.0233,0.0142,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Apple cinnamon pie,2.5873,0.0335,0.3368,0.1221,0.0177,0.1195,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Lemon meringue pie,2.2443,0.0388,0.3511,0.0816,0.0044,0.2117,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chocolate meringue pie,2.1476,0.0498,0.288,0.0917,0.0037,0.1503,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cream puffs,2.2133,0.047,0.16,0.1548,0.0038,0.0594,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chocolate eclairs,2.3942,0.0424,0.2622,0.135,0.0033,0.1734,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cheese balls,6.8128,0.0221,0.0481,0.7257,0.0018,0.0063,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Minced meat patties,2.6572,0.0688,0.1525,0.1957,0.0077,0.0088,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cheese patties,3.2401,0.0738,0.2223,0.2267,0.0124,0.0393,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Hot cheese souffle,1.771,0.0918,0.0541,0.1323,0.0012,0.0291,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Hot potato souffle,1.2564,0.0551,0.0856,0.0764,0.0066,0.0178,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Hot fish souffle,1.4292,0.1123,0.0369,0.0924,0.001,0.0168,False,False,True,True,True,True,True,True,False,True,inferred_from_dish_name_keywords
+Hot spinach souffle,1.0425,0.0543,0.0419,0.0724,0.0099,0.0164,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Plain cream cake,3.5394,0.0618,0.4718,0.1617,0.0071,0.2774,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Apple cake (Seb ka cake),2.9008,0.0494,0.3948,0.1287,0.0122,0.2352,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Marble cake,3.5411,0.063,0.4688,0.1627,0.0071,0.2756,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chocolate cake,3.3561,0.0601,0.4514,0.1518,0.0064,0.2758,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Orange cake,3.5761,0.061,0.4828,0.1621,0.0083,0.2838,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Fruit Loaf ,3.2419,0.0536,0.4649,0.1331,0.0087,0.2454,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Banana cake (Kele ka cake),3.8951,0.0577,0.4,0.2331,0.0114,0.2304,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chocolate chiffon cake,3.1171,0.0576,0.3787,0.158,0.007,0.2425,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Christmas cake,3.7295,0.0549,0.4829,0.1688,0.0149,0.2745,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Strawberry and vanilla cake with butter icing,3.7054,0.0389,0.4425,0.2039,0.0079,0.3243,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Eggless cake,3.1808,0.0812,0.4614,0.1175,0.0068,0.277,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Swiss roll,2.5187,0.073,0.4834,0.0377,0.0055,0.3296,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pineapple pastry ,2.0821,0.0606,0.2904,0.0787,0.0072,0.1883,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Black forest pastry,2.3355,0.0609,0.3448,0.0846,0.0054,0.2135,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Coconut finger,2.7486,0.0709,0.4256,0.0886,0.0187,0.2855,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pineapple cake ,1.9557,0.0501,0.2351,0.0934,0.0076,0.1616,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chocolate walnut cookies (Chocolate aur akhrot ke cookies),4.248,0.0656,0.471,0.2362,0.0154,0.2258,True,True,True,True,True,True,False,True,True,True,inferred_from_dish_name_keywords
+Chocolate chip cookies,4.2529,0.0579,0.5798,0.1938,0.0105,0.3029,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sweet plain biscuit,3.8076,0.0586,0.5029,0.1767,0.0107,0.2177,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chocolate biscuit,3.7976,0.0588,0.5156,0.1709,0.0101,0.2416,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Coconut biscuit (Nariyal ke biscuit),4.3498,0.0578,0.429,0.2716,0.0364,0.2076,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sweet and salty biscuit (Meethay aur namkeen biscuit),4.0796,0.0615,0.4509,0.2239,0.0168,0.0722,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Peanut biscuit,4.0105,0.0845,0.4672,0.2041,0.0248,0.2126,True,True,True,True,True,False,True,True,True,True,inferred_from_dish_name_keywords
+Pin wheel biscuit,4.046,0.054,0.5456,0.1866,0.0116,0.2325,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Saffron biscuit (Kesar biscuit),4.5861,0.0605,0.597,0.2201,0.019,0.2242,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Masala biscuit,3.9364,0.0606,0.4518,0.2075,0.0214,0.0682,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Ice box cookies,3.7424,0.057,0.5609,0.1444,0.0128,0.2669,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Ginger bread man,3.65,0.0661,0.6026,0.1101,0.016,0.2912,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Danish cookies,4.7533,0.0533,0.58,0.2492,0.0137,0.2173,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Short bread cookies,4.4309,0.0603,0.6482,0.1798,0.0157,0.2331,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Coffee biscuit,4.1657,0.069,0.4655,0.23,0.0159,0.2169,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Melting moments,4.3791,0.0571,0.5584,0.2178,0.0188,0.25,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Ginger biscuit (Adarak ke biscuit),4.1791,0.0598,0.5844,0.1831,0.0149,0.2706,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Soyabean muthias,8.3933,0.0246,0.037,0.9045,0.0147,0.0017,True,True,True,True,True,True,True,False,True,True,inferred_from_dish_name_keywords
+Soyabean tikki,6.9817,0.0353,0.0439,0.7402,0.022,0.0035,True,True,True,True,True,True,True,False,True,True,inferred_from_dish_name_keywords
+Soyabean namak paras,8.3846,0.0265,0.0465,0.8983,0.0141,0.0022,True,True,True,True,True,True,True,False,True,True,inferred_from_dish_name_keywords
+Peanut burfi (Moongfali ki burfi),5.5099,0.0931,0.4814,0.3684,0.0409,0.4308,True,True,True,True,True,False,True,True,True,True,inferred_from_dish_name_keywords
+Spinach peanut namak paras (Palak moongfali namak paras),7.4016,0.0165,0.0662,0.7851,0.0081,0.0028,True,True,True,True,True,False,True,True,True,True,inferred_from_dish_name_keywords
+Gram flour and semolina chilla/cheela/savory pancake (Besan suji chilla/cheela),7.5889,0.0208,0.0763,0.8004,0.0139,0.0025,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Rice moong dal cheela (Chawal aur moong dal ka cheela),7.9826,0.0274,0.1113,0.8244,0.0118,0.0015,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Split bengal gram sweet rice (Channa dal sweet rice),1.9021,0.0415,0.4107,0.0064,0.0223,0.1941,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sweet poori (Meethi poori),7.8275,0.0212,0.1426,0.7963,0.0154,0.0715,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Wheat flour and moong dal burfi (Atta aur moong dal ki burfi),4.4108,0.0984,0.6,0.1841,0.0602,0.3112,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Spinach burfi (Palak burfi),1.2117,0.0271,0.1276,0.0681,0.0117,0.1212,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sweet split chickpea roti (Sweet channa dal roti/Puranpoli),3.6659,0.0951,0.6266,0.0793,0.0816,0.2473,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sprouted moong daliya ,1.1156,0.0281,0.1477,0.0471,0.0312,0.0167,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sprouted moong poha ,1.926,0.0559,0.266,0.0689,0.0313,0.0193,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pearl millet ladoo (Bajra ladoo),3.1966,0.0961,0.5098,0.0806,0.06,0.2744,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Paushtik ladoo,4.8587,0.0765,0.6034,0.2498,0.0457,0.3812,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Paushtik roti,1.4926,0.0717,0.2659,0.0151,0.0574,0.0203,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Semolina carrot vada (Suji gajar vada),6.9953,0.0156,0.0652,0.7407,0.0107,0.0121,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Dhokla,2.1649,0.1345,0.3068,0.0528,0.0495,0.0478,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Kashmiri tea (Kehwa),0.2619,0.0017,0.0523,0.0051,0.0016,0.0514,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Steeped hot coffee,0.1591,0.0039,0.0301,0.0033,0,0.0296,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Hot chocolate,0.9001,0.0343,0.0902,0.0461,0,0.0886,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cold coffee (with cream),0.8276,0.0193,0.1198,0.0329,0,0.1191,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Banana milkshake with ice cream (Kele ka milkshake ice cream ke saath),0.7645,0.0201,0.1115,0.0277,0.0027,0.0994,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Flavoured milkshake,0.6678,0.0206,0.0865,0.0283,0,0.0861,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Jal jeera,0.3024,0.0044,0.067,0.0026,0.0095,0.0571,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Gingo,0.5078,0.0014,0.1242,0.0006,0.0017,0.1208,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mintade,0.4266,0.0003,0.1059,0.0002,0.0003,0.1047,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Canjee,0.0661,0.0024,0.0044,0.0042,0.0036,0.0021,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cauliflower canjee (Phoolgobhi ki canjee),0.069,0.0039,0.0035,0.0042,0.0035,0.0009,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Potato canjee (Aloo canjee),0.1626,0.0044,0.0269,0.0039,0.0043,0.001,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vermicelli porridge (Semiya/Seviyan porridge),0.784,0.025,0.1056,0.0298,0.0048,0.0704,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Semolina upma (Suji/Rava upma),1.4789,0.033,0.1631,0.0749,0.0324,0.0131,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vermicelli upma (Semiya/Seviyan upma),1.4911,0.0311,0.1688,0.0745,0.0321,0.014,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Rice upma,1.5127,0.0263,0.1796,0.0746,0.0212,0.0113,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Bread upma,1.2951,0.028,0.126,0.0775,0.0196,0.0156,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vegetable upma,1.4647,0.0473,0.1646,0.0663,0.0419,0.0139,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Poha,2.9453,0.0609,0.3505,0.1414,0.0372,0.0087,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vegetable poha,1.8052,0.0489,0.2152,0.0807,0.0376,0.014,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Moong dal stuffed cheela/chilla (Moong dal ka cheela/chilla),1.5489,0.0697,0.1942,0.0511,0.0425,0.0111,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Paneer stuffed cheela/chilla,2.0519,0.1144,0.1916,0.0889,0.0403,0.0381,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Indian style egg bhujia (Anda bhujia (Indian style)),1.0283,0.061,0.0376,0.0702,0.0153,0.0195,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+French omelette/omlet,2.1104,0.1003,0.0041,0.1886,0.0038,0.001,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Puffy omelette/omlet,1.8815,0.0882,0.0008,0.1684,0,0.0008,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Orange omelette/omlet,1.9466,0.0893,0.0168,0.1684,0,0.0168,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Cheese and mushroom omelette/omlet,2.0563,0.0969,0.0168,0.1782,0.0093,0.0107,True,False,True,False,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Spanish omelette/omlet,1.5745,0.0825,0.051,0.1144,0.0254,0.0103,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Mixed stock,0.2519,0.0206,0.0033,0.0171,0.0015,0.002,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Meat stock,0.2448,0.021,0,0.0178,0,0,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+White stock,0.0699,0.0007,0.004,0.0056,0.0017,0.0024,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Meat consomme (with mutton),0.2976,0.024,0.0008,0.0221,0.0008,0.0008,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Consomme au julienne,0.2776,0.0228,0.0027,0.0195,0.0027,0.0027,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Consomme au vermicelli,0.2994,0.0249,0.0021,0.0212,0.0021,0.0021,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Green pea soup (Matar ka soup),0.3981,0.0252,0.0083,0.0294,0.0083,0.0083,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Spinach soup (Palak ka soup),0.3259,0.0188,0.0054,0.0254,0.0054,0.0029,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mixed vegetable soup,0.3571,0.0196,0.007,0.0278,0.007,0.007,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cheese soup,0.4113,0.0242,0.0037,0.0333,0.0037,0.0037,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mulligatawny soup,0.5442,0.031,0.0227,0.0366,0.0227,0.0126,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cream of carrot soup,0.5977,0.0296,0.0204,0.0442,0.0198,0.0177,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cream of broccoli soup,0.5614,0.0304,0.0126,0.0432,0.0126,0.0126,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cream of potato soup,0.602,0.0295,0.0223,0.0439,0.0151,0.0124,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Almond soup (Badam ka soup),0.7865,0.0444,0.0161,0.0605,0.0091,0.0161,True,True,True,True,True,True,False,True,True,True,inferred_from_dish_name_keywords
+Cold cucumber cream soup ,0.1188,0.0034,0.0176,0.0034,0.0073,0.0051,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cold tomato soup,0.169,0.0011,0.0059,0.0156,0.0016,0.0022,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chicken stew,1.2755,0.0719,0.0444,0.0891,0.0182,0.0143,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Veg paneer stew,1.4555,0.0698,0.1022,0.0841,0.0308,0.0485,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Onion-green chilli parantha/paratha (Pyaaz aur hari mirch ka parantha/paratha),1.9127,0.0437,0.2637,0.0727,0.0516,0.0271,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Methi parantha/paratha,1.4836,0.0427,0.2219,0.0434,0.0509,0.0244,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Bathua poori,5.9879,0.0235,0.1385,0.5914,0.0187,0.0041,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Gram flour poori (Besan poori),6.9766,0.0259,0.1093,0.7151,0.0194,0.0035,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Beetroot poori (Chukandar ki poori),5.2766,0.0191,0.1229,0.5218,0.014,0.0054,True,False,False,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Peas poori (Matar ki poori),5.9283,0.0304,0.1492,0.5769,0.0225,0.0048,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Peas kachori (Matar kachori),5.8468,0.0321,0.1325,0.5751,0.0203,0.005,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pizza,1.4677,0.0685,0.0994,0.0872,0.0171,0.0138,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Bacon and mushroom pancake,1.5767,0.0682,0.0847,0.106,0.0159,0.0123,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cheese and tomato pancake,1.4739,0.0515,0.1066,0.0928,0.0106,0.0348,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Minced meat pancake (with chicken),1.7508,0.1201,0.0818,0.1048,0.007,0.0129,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Eggplant/Brinjal rice (Vangi bhat),1.848,0.0528,0.3174,0.0367,0.0444,0.0436,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Kashmiri 'tahar',0.9821,0.0195,0.1911,0.0137,0.0098,0.0017,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cumin pulao (Jeera/Zeera pulao),1.3524,0.0247,0.2361,0.032,0.014,0.0064,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Peas pulao (Matar pulao),1.0887,0.0389,0.1842,0.019,0.0321,0.013,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Split bengal gram dal and vegetable pulao (Channa dal and vegetable pulao),1.1653,0.036,0.1972,0.023,0.0316,0.0159,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Black channa pulao/ Bengal gram pulao (Kale chane ka pulao),1.2551,0.0344,0.2155,0.0258,0.0269,0.0199,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mutton pulao,1.6814,0.0652,0.1126,0.1078,0.0165,0.01,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chicken pulao,1.4528,0.0607,0.1117,0.0848,0.0164,0.0099,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mexican rice,1.2057,0.0462,0.1421,0.0488,0.0164,0.0144,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Plain khitchdi (Plain khichri/khichdi),0.5703,0.0172,0.1004,0.0101,0.0085,0.0012,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Instant idli (with semolina),2.4729,0.0916,0.434,0.0361,0.0713,0.0335,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Plain dosa,3.8091,0.1034,0.6408,0.0843,0.0523,0.007,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Masala dosa mixed vegetable fillings,1.4453,0.0484,0.2302,0.0326,0.0431,0.0153,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Masala dosa paneer fillings,2.4312,0.1031,0.2976,0.0884,0.0311,0.0481,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Uttapam,2.5595,0.0618,0.3628,0.0903,0.044,0.015,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Appam,2.677,0.0312,0.1328,0.2263,0.0619,0.0416,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Beans and macaroni,1.3608,0.0458,0.1424,0.0701,0.0205,0.0168,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Spaghetti bolognese,1.6315,0.0935,0.1004,0.0951,0.0108,0.0141,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Meat and macaroni casserole,1.9261,0.0915,0.1612,0.1017,0.0119,0.01,False,False,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Spaghetti with meat balls and tomato sauce,1.5813,0.0561,0.1046,0.1064,0.0111,0.0187,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Spaghetti with paneer balls and tomato sauce,1.5854,0.0395,0.1272,0.1044,0.0125,0.0303,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Lasagne with meat sauce,0.6338,0.029,0.0538,0.0343,0.0047,0.0104,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Lasagne with vegetables,0.4923,0.0171,0.059,0.0216,0.0066,0.0137,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Home made egg noodles,2.4084,0.0655,0.4292,0.0437,0.016,0.0103,True,False,False,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Sour lentils (Khatti dal),0.3479,0.0222,0.0604,0.0012,0.0122,0.0125,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Urad special dehusked,0.6943,0.0314,0.0886,0.0217,0.025,0.0132,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Arhar with spinach (Arhar dal aur palak),0.5284,0.0205,0.0477,0.0276,0.013,0.0023,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Moong dal with vadi,0.2408,0.004,0.01,0.0205,0.0039,0.0045,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Rasam with tamarind (Puli rasam/ Chintapandu rasam/ Charu/Saaru),0.2674,0.0113,0.0337,0.0088,0.016,0.0083,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Rasam with lemon (Nimmakaya rasam/Nimmakaya charu/Elumichai rasam/Nimbe hannina saaru),0.2441,0.0111,0.0285,0.0087,0.0154,0.0044,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Green gram whole with baghar (Sabut moong dal with tadka),0.6343,0.0323,0.068,0.0248,0.0302,0.0015,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Urad sabut special,0.7939,0.0233,0.0503,0.0546,0.0215,0.0086,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Kabuli channa curry,0.6857,0.0292,0.0763,0.0306,0.0112,0.0124,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Besan gatte curry,1.8938,0.0775,0.1626,0.1072,0.0325,0.045,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Dry masala chops,1.3507,0.0908,0.033,0.0954,0.0086,0.0227,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mutton korma,1.1564,0.0709,0.0253,0.0854,0.0078,0.0164,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Shahi keema kofta curry,4.1813,0.0414,0.0173,0.4383,0.0091,0.0078,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Minced meat ball curry,1.0979,0.0682,0.0286,0.0785,0.0149,0.0127,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Boti kebab,1.3286,0.0922,0.0306,0.0927,0.0076,0.0209,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mutton seekh kebab,1.3394,0.1125,0.0311,0.0843,0.0188,0.014,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Indian lamb and egg curry (Nargisi kofta),3.3575,0.0384,0.0207,0.347,0.006,0.0075,False,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Soya chunks sweet and sour (Nutrinugget sweet and sour),5.2839,0.0285,0.0327,0.5599,0.0086,0.011,True,True,True,True,True,True,True,False,True,True,inferred_from_dish_name_keywords
+Soya chunks korma (Nutrinugget korma),1.3143,0.0386,0.0767,0.095,0.0257,0.0466,True,True,True,True,True,True,True,False,True,True,inferred_from_dish_name_keywords
+Mushroom matar,0.7077,0.0279,0.0533,0.0411,0.0313,0.0139,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Soya chunks and peas (Nutrinugget matar),0.8262,0.0303,0.0582,0.0511,0.0286,0.0164,True,True,True,True,True,True,True,False,True,True,inferred_from_dish_name_keywords
+Vegetable yakhni,4.0606,0.0118,0.0194,0.438,0.0061,0.0144,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Spinach mushroom (Palak mushroom),0.4763,0.0194,0.0295,0.0296,0.0227,0.01,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vegetarian nargisi kofta curry,3.3215,0.0229,0.0658,0.3294,0.0086,0.0165,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Roast chicken,1.999,0.2049,0.001,0.1306,0.0003,0.0005,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Shahi chicken masala,1.637,0.0982,0.0407,0.1202,0.0096,0.0286,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Tomato chicken,1.1168,0.1057,0.0213,0.0671,0.0142,0.0093,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Creamy chicken,1.5287,0.1352,0.0313,0.0957,0.0069,0.0211,False,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Broccoli chicken ala king,1.1956,0.0797,0.0534,0.0757,0.0192,0.0249,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Ginger chicken,1.2917,0.0824,0.056,0.0824,0.0121,0.0195,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chicken sweet and sour,4.4509,0.0692,0.0267,0.4759,0.0058,0.0089,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chicken korma,1.4796,0.0983,0.0543,0.0967,0.0182,0.0332,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Bengal fish curry (Bengali machli curry),1.0943,0.0726,0.0442,0.0703,0.0193,0.0239,False,False,True,True,True,True,True,True,False,True,inferred_from_dish_name_keywords
+Fish finger,5.429,0.0566,0.0447,0.5582,0.0034,0.0017,False,False,True,True,True,True,True,True,False,True,inferred_from_dish_name_keywords
+Fish in coconut milk (Nariyal ke doodh ke saath machli),0.8621,0.0866,0.0273,0.0443,0.0152,0.0155,False,False,True,False,True,True,True,True,False,True,inferred_from_dish_name_keywords
+Prawn curry (with coconut) (Jhinga curry),1.0955,0.0854,0.031,0.0693,0.0156,0.0203,False,False,True,True,True,True,True,True,True,False,inferred_from_dish_name_keywords
+Baked stuffed fish,1.2196,0.1614,0.0212,0.0543,0.0038,0.0035,False,False,True,True,True,True,True,True,False,True,inferred_from_dish_name_keywords
+Fish pie,1.209,0.0925,0.0774,0.0577,0.0076,0.0113,False,False,True,True,True,True,True,True,False,True,inferred_from_dish_name_keywords
+Crispy baked fish,1.384,0.1095,0.0959,0.0641,0.0121,0.0153,False,False,True,True,True,True,True,True,False,True,inferred_from_dish_name_keywords
+Fish souffle,1.3971,0.1051,0.0514,0.0855,0.0019,0.0209,False,False,True,True,True,True,True,True,False,True,inferred_from_dish_name_keywords
+Potato curry (Aloo ki sabzi),0.8956,0.0152,0.1042,0.0447,0.0242,0.0158,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Egg curry (Anda curry),1.1752,0.0538,0.0403,0.0881,0.0209,0.019,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Vegetable curry with coconut ,0.8307,0.0277,0.0719,0.0466,0.0335,0.0141,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Curd with potatoes (Dahi aloo),0.599,0.0156,0.0715,0.0272,0.0119,0.0182,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Potato kofta curry (Aloo kofta curry),4.554,0.0056,0.0278,0.4908,0.0056,0.0063,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Yam kofta curry (Zimikand/Suran kofta curry),3.2288,0.0071,0.0375,0.3384,0.0104,0.0063,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Jackfruit kofta curry (Kathal ka kofta curry),3.2108,0.008,0.0317,0.3383,0.0096,0.024,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Spinach and potato (Palak aloo),0.5717,0.0163,0.0591,0.0282,0.0204,0.0093,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mooli bhujia,0.912,0.0169,0.0474,0.0725,0.0236,0.0107,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Bathua bhujia,0.909,0.0226,0.0363,0.0729,0.0363,0.0108,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cabbage rolls (dry) ((Pattagobhi rolls) (dry)),1.4248,0.0821,0.0609,0.0936,0.0184,0.0126,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cabbage rolls (curry) ((Pattagobhi rolls)(curry)),1.2463,0.0576,0.0703,0.0817,0.0235,0.0381,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Dry arbi (Sookhi arbi),1.3495,0.0212,0.1111,0.0897,0.0247,0.0155,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Masala arbi,1.8538,0.0301,0.1616,0.119,0.031,0.0081,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Peas brinjal bhartha (Matar baingan bhartha),0.8455,0.0205,0.0502,0.0605,0.0363,0.0157,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Okra/Lady's fingers fry (Bhindi sabzi/sabji/subji),1.1081,0.0183,0.045,0.0927,0.0357,0.0142,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Crispy okra/Crispy lady's fingers (Karare bhindi),6.5776,0.0191,0.0435,0.704,0.0175,0.0026,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Beans foogath,1.0506,0.0203,0.0326,0.0922,0.0326,0.017,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Stuffed bittergourd (wet) (Bharwa karele),1.6236,0.0136,0.0468,0.1524,0.0286,0.0195,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Jackfruit/Kathal (dry),4.8897,0.0093,0.0456,0.5178,0.0133,0.0355,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Yam fried (Zimikand/Suran fried),4.9176,0.0079,0.0547,0.5179,0.0144,0.008,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+"Cauliflower, pea and potato bhujia (Phoolgobhi, matar aur aloo bhujia)",0.9567,0.0275,0.0823,0.0554,0.0326,0.0147,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vegetable jalfrezi,0.6848,0.014,0.0543,0.0438,0.0297,0.0179,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vegetables stir fry ,0.3078,0.0104,0.0319,0.0147,0.0137,0.0086,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Broccoli delight,0.407,0.0249,0.0234,0.0248,0.0234,0.0108,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Dhansak (vegetarian),0.828,0.0332,0.0728,0.0418,0.0417,0.0091,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cauliflower basket,0.9095,0.0521,0.0397,0.0588,0.024,0.0147,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Stuffed bottle gourd (Stuffed ghiya/lauki),0.9319,0.0584,0.0436,0.058,0.0118,0.0152,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Ducheese potato,1.4054,0.036,0.1094,0.0901,0.0129,0.0029,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Roast potatoes ,0.8732,0.0153,0.1452,0.0235,0.0171,0.0033,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Stuffed baked potatoes ,1.002,0.0382,0.1103,0.0439,0.0131,0.004,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Potato nests,1.1162,0.0571,0.1105,0.0477,0.0249,0.0141,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Parsley potato,1.1951,0.0149,0.1381,0.0628,0.0159,0.0034,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Creamed spinach and mushroom,4.1962,0.0228,0.0317,0.4414,0.0102,0.0117,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Fricassee of Mushroom,1.0666,0.0365,0.0813,0.0663,0.0123,0.0251,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cauliflower au gratin,1.459,0.0445,0.0913,0.102,0.0144,0.0301,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vegetable and cheese pie,1.2688,0.0403,0.0876,0.0828,0.0191,0.0269,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Spinach souffle ,1.5018,0.0736,0.0627,0.1052,0.0144,0.0089,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Beetroot and egg salad (Chukandar aur ande ka salad),0.8492,0.0336,0.034,0.0645,0.0055,0.0197,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Sour cream potato salad,1.219,0.0289,0.0905,0.0813,0.0121,0.0084,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Tossed green salad,0.4988,0.0133,0.0382,0.0324,0.0133,0.019,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Spring basket salad,1.6046,0.0336,0.1161,0.113,0.0309,0.0146,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cucumber and yogurt salad (Kheere aur dahi ka salad),0.3613,0.0209,0.0472,0.0093,0.0166,0.0228,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chicken and tomato towers,1.0055,0.069,0.0236,0.0699,0.0114,0.0121,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Jellied sunshine fruit salad,0.4886,0.0585,0.0421,0.0085,0.018,0.0286,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Tomato aspic,0.5037,0.0687,0.0502,0.0026,0.0158,0.0321,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Frozen frosty fruit salad (Phalon ka salaad),1.0351,0.0168,0.1561,0.0417,0.0026,0.1438,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+French dressing,7.3377,0.0032,0.0368,0.7965,0.0022,0.0301,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mayonnaise without eggs,3.2905,0.0213,0.0398,0.3384,0.0004,0.0368,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Curd dressing ,0.788,0.0559,0.0803,0.029,0.0022,0.0757,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Carrot raita (Gajar ka raita),0.6478,0.0414,0.0719,0.0219,0.0169,0.0599,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pumpkin raita (Kaddu ka raita),0.556,0.0374,0.0602,0.0188,0.0104,0.0548,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mint and peanut raita (Pudinay aur moongfali ka raita),1.1205,0.0705,0.0731,0.0619,0.0179,0.0617,True,True,True,True,True,False,True,True,True,True,inferred_from_dish_name_keywords
+Spinach raita (Palak ka raita),0.5275,0.0395,0.0506,0.0186,0.0139,0.0397,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Bathua raita,0.544,0.0413,0.0531,0.0176,0.0219,0.0411,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pineapple raita (Ananas ka raita),0.6774,0.039,0.0862,0.0202,0.0139,0.0812,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Banana raita (Kele ka raita),0.8903,0.0413,0.1351,0.0207,0.01,0.1011,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mango raita (Aam ka raita),0.6737,0.039,0.0823,0.0214,0.0089,0.0787,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Guava raita (Amarood ka raita),0.6436,0.0419,0.0727,0.0207,0.03,0.0671,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Grapes raita (Angoor ka raita),0.7259,0.0398,0.0966,0.0207,0.0071,0.0851,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Bottle gourd kheer (Ghiya/Lauki kheer),0.8407,0.027,0.1,0.0386,0.0055,0.0963,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pumpkin kheer (Kaddu ki kheer),0.8635,0.0276,0.1044,0.0386,0.0063,0.1012,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Apple kheer (Seb ki kheer),0.813,0.0214,0.1134,0.0318,0.0051,0.1071,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Caramel custard (baked),1.227,0.0511,0.1495,0.0501,0,0.1492,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vanilla ice cream without egg,2.2867,0.0269,0.1421,0.1815,0,0.1345,True,False,True,False,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Vanilla ice cream with egg,2.1485,0.0416,0.1171,0.1702,0,0.1169,True,False,True,False,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Strawberry ice cream,2.1561,0.0415,0.1226,0.1696,0,0.116,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chocochip ice cream,2.4145,0.0423,0.1675,0.1793,0,0.1608,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Choconut ice cream,2.7396,0.0504,0.2313,0.1849,0.0051,0.2102,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pear chocholate sunday,1.8349,0.0208,0.1502,0.1311,0.0007,0.1441,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chocolate sauce,2.632,0.0191,0.4321,0.1039,0,0.4206,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Coffee ice cream,1.5062,0.0315,0.1409,0.0943,0,0.1335,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Coffee pear alaska,2.0399,0.0288,0.1936,0.1322,0.0015,0.1688,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Crunchy butterscotch,2.7732,0.0311,0.1992,0.2099,0.0047,0.1773,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Peach melba ice cream,2.0085,0.0206,0.1631,0.1451,0.0006,0.1335,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vanilla ice cream with apples in hot cherry sauce,1.9632,0.0173,0.2275,0.1145,0.0026,0.1419,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Grape and orange whip,0.5739,0.0141,0.0672,0.0262,0.0097,0.0566,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Honey banana cream,1.2549,0.0278,0.1364,0.0668,0.007,0.1051,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Raspberry bavarian cream,1.501,0.0334,0.1782,0.0788,0.0219,0.153,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Fruit delight,1.0709,0.0209,0.0911,0.0709,0.0009,0.0903,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Creamy chocolate mousse,2.3052,0.0685,0.0953,0.1816,0,0.0899,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cold lemon souffle,1.6987,0.0589,0.1562,0.0978,0,0.1388,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cold orange souffle,1.7319,0.0594,0.1627,0.0982,0.0011,0.1442,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cold pineapple souffle,1.8122,0.0623,0.1685,0.1039,0,0.1499,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cold vanilla souffle,1.7954,0.0622,0.1629,0.1032,0,0.1449,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cold chocolate souffle,1.8753,0.0637,0.1722,0.1086,0,0.1531,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Stewed fruit (with pear),0.7432,0.0025,0.1822,0.0032,0.0284,0.1767,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Apricot fool,2.4079,0.0154,0.3364,0.1135,0.01,0.2129,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pavlova,2.006,0.0184,0.2184,0.1229,0.0006,0.2037,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Apple crumb pudding,2.2085,0.0154,0.3517,0.0887,0.0133,0.2769,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Steamed cake with chocolate sauce,3.0191,0.0449,0.2906,0.1901,0.0029,0.1972,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Hot lemon souffle,1.5525,0.0529,0.1631,0.0793,0.0014,0.1207,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Gulab jamun with milk powder,4.7115,0.0085,0.2824,0.4015,0.0005,0.2704,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chum chum,1.3005,0.0152,0.2827,0.0192,0.0002,0.2784,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Dil bahar,1.3005,0.0152,0.2827,0.0192,0.0002,0.2784,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Rasbhari,1.3005,0.0152,0.2827,0.0192,0.0002,0.2784,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Rajbogh,1.337,0.0171,0.2816,0.0228,0.0011,0.2766,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Rasgulla,1.1864,0.0138,0.2579,0.0175,0.0001,0.254,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Rasmalai,1.3555,0.0161,0.2917,0.0211,0.0007,0.2871,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Khoa coconut burfi,4.1145,0.0998,0.3655,0.2601,0.0407,0.356,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Danedar burfi,1.0268,0.0324,0.1233,0.0472,0.0009,0.1198,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Semolina burfi (Suji/Rava burfi),3.4867,0.0347,0.471,0.1686,0.028,0.2867,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pumpkin coconut burfi (Kaddu aur nariyal ki burfi),1.8618,0.0175,0.1702,0.1266,0.0429,0.1611,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Khoa ladoo,3.9602,0.1221,0.3443,0.2409,0.0308,0.3337,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Wheat and gram flour ladoo (Atta besan ladoo),5.017,0.0938,0.505,0.2986,0.0601,0.1846,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Semolina ladoo with nuts (Suji/Rava ladoo with nuts),4.4184,0.0544,0.4802,0.2545,0.0427,0.1979,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sesame chickpeas brittle (Til aur channe ki chikki),2.8274,0.085,0.5049,0.0466,0.0554,0.3648,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Murmura chikki,2.5382,0.0212,0.5959,0.0032,0.0037,0.4827,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Masala onion pakora/pakoda (Pyaaz ke pakode),5.5164,0.0205,0.0648,0.5761,0.0144,0.0158,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Masala green chilli pakora/pakoda (Hari mirch kay pakode),6.6876,0.0222,0.0555,0.7101,0.0134,0.0027,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chicken pakora/pakoda,5.9009,0.0603,0.0455,0.6098,0.0096,0.0022,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Fish pakora/pakoda,5.7703,0.0597,0.0455,0.5952,0.0096,0.0022,False,False,True,True,True,True,True,True,False,True,inferred_from_dish_name_keywords
+Paneer cutlet,6.722,0.0459,0.0762,0.6938,0.0039,0.0252,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sago cutlet/vadas (Sabudana cutlet/vadas),5.5876,0.0056,0.1123,0.5697,0.0054,0.001,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Poshtik cutlet,4.9645,0.02,0.0739,0.5094,0.0135,0.0032,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Egg cutlet (Anda cutlet),5.7502,0.0245,0.0577,0.6025,0.0058,0.002,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Minced meat cutlet,5.3186,0.051,0.0561,0.5447,0.004,0.0031,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vegetable samosa,4.4311,0.0221,0.1322,0.4222,0.0152,0.0074,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Plain urad dal vada (Uzunne vada/Minapa garelu/Ulundu vadai/Medu vada),7.455,0.0439,0.097,0.7632,0.0227,0.0016,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Masala urad dal vada,7.0378,0.0432,0.0993,0.7162,0.0271,0.007,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Khaman (dhokla),0.5473,0.0192,0.0536,0.028,0.0149,0.0136,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Instant dhokla,2.0711,0.0766,0.2411,0.0937,0.0357,0.0686,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Tomato ginger chutney (Tamatar adarak ki chutney),0.4466,0.0105,0.0911,0.0032,0.0214,0.0631,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mint tomato chutney (Pudinay aur tamatar ki chutney),0.4365,0.0153,0.0822,0.0036,0.0263,0.0548,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Coriander chutney (Hare dhaniye ki chutney),0.4286,0.0138,0.0816,0.0037,0.0247,0.055,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Gooseberry chutney (Amla chutney),0.4666,0.0144,0.0883,0.0062,0.0458,0.0006,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Walnut chutney (Akhrot ki chutney),3.7043,0.0944,0.0891,0.3346,0.0304,0.044,True,True,True,True,True,True,False,True,True,True,inferred_from_dish_name_keywords
+Saunth/Sonth chutney with ginger,0.8422,0.0028,0.2062,0.0011,0.0031,0.1904,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Gun powder chutney,3.1234,0.2155,0.4765,0.0267,0.1395,0.0116,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Dessicated coconut chutney (Sookhe kase nariyal ki chutney) ,3.4636,0.1288,0.3672,0.1588,0.1316,0.1041,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Curd mint dip ,0.7613,0.0482,0.0911,0.0244,0.0077,0.0783,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Curd vegetable dip,0.5621,0.0388,0.0604,0.0194,0.0063,0.0542,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mayonnaise vegetable dip,2.4127,0.0301,0.048,0.2344,0.0041,0.0439,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Tomato and cucumber sandwich (Tamatar aur kheere ka sandwich),1.5068,0.0403,0.2051,0.0631,0.021,0.0179,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Tomato sandwich (grilled),1.8992,0.0626,0.2129,0.0939,0.0191,0.0258,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+French sandwich (toasted),1.8675,0.0682,0.1482,0.1151,0.0137,0.0182,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Peanut butter cucumber sandwich,2.4333,0.0904,0.2976,0.1056,0.0335,0.0291,True,False,True,False,True,False,True,True,True,True,inferred_from_dish_name_keywords
+Mint and peanut sandwich,2.7359,0.0718,0.3183,0.1388,0.0367,0.0278,True,True,True,True,True,False,True,True,True,True,inferred_from_dish_name_keywords
+Spicy chutney sandwich,2.4958,0.0874,0.3403,0.0958,0.0373,0.0396,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chicken walnut sandwich (Chicken aur akhrot ke sandwich),2.8578,0.1258,0.2262,0.1677,0.0153,0.0177,False,False,True,True,True,True,False,True,True,True,inferred_from_dish_name_keywords
+Rolled sandwich,2.9307,0.0645,0.3469,0.1529,0.0207,0.027,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Ribbon sandwich,2.3926,0.0626,0.2476,0.1337,0.0292,0.0466,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Checker board sandwich,3.4837,0.0737,0.2594,0.2465,0.0222,0.029,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Submarine sandwich,2.1692,0.0609,0.136,0.1532,0.0124,0.025,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cheese open sandwich,2.7407,0.0984,0.2842,0.1424,0.0174,0.0324,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sunset and sunrise open sandwich,2.4131,0.0858,0.1889,0.1514,0.0139,0.0195,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Danish luncheon sandwich,1.9382,0.0903,0.1777,0.101,0.0152,0.0113,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chicken and corn open sandwich,1.8816,0.0863,0.1921,0.0883,0.0167,0.0248,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chocolate sponge cake,2.3986,0.0913,0.3954,0.0551,0.0052,0.25,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chocolate swiss roll,3.0608,0.0601,0.2697,0.1976,0.0029,0.1883,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Lemon curd filling,2.2562,0.0343,0.2641,0.1258,0,0.2613,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Jam filling,1.8462,0,0.4615,0,0,0.4154,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chocolate pastry,2.4337,0.0705,0.3224,0.1012,0.0032,0.2234,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Assorted pastry,2.3074,0.0678,0.3199,0.0891,0.0043,0.197,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Orange gateau,1.7805,0.0478,0.2701,0.0602,0.0068,0.1833,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Black forest gateau,2.1782,0.0594,0.3057,0.0858,0.0028,0.2197,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Lemon cake,3.7385,0.0529,0.431,0.2063,0.0062,0.2584,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Dundee cake,3.9662,0.0778,0.414,0.227,0.0181,0.213,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Victorian sandwich cake,3.7309,0.0518,0.4474,0.1983,0.0059,0.2818,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chocolate eggless cake,3.1201,0.0666,0.4345,0.1319,0.0032,0.342,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Orange eggless cake,3.5562,0.0716,0.5265,0.1382,0.0056,0.3787,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Chocolate glace icing,4.3629,0.0322,0.6243,0.208,0,0.5988,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Butter icing,5.0072,0.0019,0.7164,0.2537,0,0.7164,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chocolate butter icing,4.6959,0.0321,0.6172,0.2477,0,0.5982,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Almond biscuit (Badam ke biscuit),4.0774,0.0625,0.5214,0.197,0.015,0.2219,True,True,True,True,True,True,False,True,True,True,inferred_from_dish_name_keywords
+Orange biscuit,3.5478,0.0363,0.6211,0.1101,0.0075,0.4263,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Gingerman biscuit,3.5743,0.0626,0.5524,0.1273,0.02,0.2164,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Coffee drops,4.4307,0.0757,0.4306,0.2716,0.0188,0.1827,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Christmas biscuit,4.0607,0.0567,0.6097,0.1588,0.0217,0.2601,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Christmas wreath biscuit,3.8605,0.0543,0.5807,0.1501,0.0228,0.2489,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Christmas bell biscuit,4.0485,0.0566,0.6079,0.1584,0.0233,0.2594,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Christmas star biscuit,3.9203,0.0354,0.7454,0.1004,0.0147,0.5305,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Christmas tree biscuit,3.8563,0.0543,0.5841,0.15,0.0265,0.2477,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chocolate cream shells,4.2717,0.051,0.5926,0.1934,0.009,0.3472,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Jelly biscuit,4.0461,0.0423,0.5524,0.1933,0.0202,0.2976,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cherry and walnut cookies,4.226,0.0563,0.5935,0.1875,0.013,0.3037,True,True,True,True,True,True,False,True,True,True,inferred_from_dish_name_keywords
+Cheese straws,3.82,0.0983,0.3061,0.2428,0.0129,0.0179,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Butterfly biscuit,3.4145,0.0998,0.2533,0.2211,0.0102,0.0244,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Flan pastry,4.458,0.0672,0.4784,0.2504,0.0158,0.0622,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Fruit flan,2.6135,0.033,0.3471,0.1248,0.0071,0.0952,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Orange cream flan,2.8028,0.0473,0.3616,0.1359,0.0063,0.2527,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Fruit puree tart,2.865,0.0335,0.3042,0.1683,0.0131,0.0979,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Apple banana pie,2.4399,0.0313,0.3212,0.1139,0.0189,0.1296,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Lemon chiffon pie,2.5931,0.0488,0.2763,0.1452,0.0066,0.1139,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Orange chiffon pie,2.0757,0.0389,0.2314,0.1116,0.007,0.1046,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cream buns,2.1574,0.0445,0.1416,0.1581,0.0031,0.0595,True,False,False,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Savoury puffs,2.184,0.0951,0.108,0.1524,0.0033,0.0451,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Choux swans,2.1634,0.0435,0.1492,0.156,0.0035,0.0613,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Potato aigrettes,5.3003,0.0235,0.0801,0.5424,0.0045,0.0073,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cream horns,4.0823,0.0342,0.2312,0.3355,0.006,0.0712,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Savoury cheese horns,2.9515,0.0566,0.2138,0.2071,0.0073,0.0274,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Paneer patties,3.3858,0.076,0.2279,0.2396,0.0118,0.0404,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vegetable patties ,2.6192,0.0401,0.2098,0.1774,0.0262,0.0149,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pearl millet infant food (Bajra shishu aahaar),3.6244,0.1198,0.621,0.0662,0.0784,0.2606,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sajina,3.4526,0.1081,0.6687,0.0303,0.0762,0.2589,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cereal mix ,1.2081,0.0332,0.2184,0.0202,0.0203,0.1068,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pulse mix,0.8329,0.0316,0.16,0.0054,0.0225,0.0659,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Shishu ahar,0.9337,0.0261,0.1742,0.0143,0.0102,0.0661,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cereal pulse mix with amylase rice flour,1.5157,0.0427,0.278,0.0274,0.0347,0.0884,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Banana groundnut paste/puree,2.1319,0.0427,0.3615,0.0545,0.017,0.3167,True,True,True,True,True,False,True,True,True,True,inferred_from_dish_name_keywords
+Rice dal porridge (Chawal dal ki khichdi/khichri),3.8333,0.108,0.6504,0.0833,0.0451,0.2654,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Lentils and semolina porridge (Dal suji porridge/daliya),1.1729,0.0326,0.2319,0.0106,0.0144,0.1384,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Spinach khichri (Palak khichri/khichdi),1.0218,0.0343,0.1735,0.0191,0.0156,0.0021,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vegetable mix,1.7421,0.047,0.3602,0.0094,0.0193,0.2736,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Lentils and wheat porridge (Dal wheat porridge/daliya ),0.5254,0.0271,0.0836,0.0094,0.0128,0.0092,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Maize porridge,0.8957,0.0214,0.1564,0.0189,0.0168,0.0769,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Spinach peanut burfi (Palak aur mungfali ki burfi),1.0537,0.0336,0.1359,0.0439,0.0207,0.115,True,True,True,True,True,False,True,True,True,True,inferred_from_dish_name_keywords
+Split bengal gram burfi/fudge (Channa dal burfi),2.8736,0.0465,0.5463,0.0709,0.0206,0.4338,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chickpea flour cookies (Sweet besan rounds/cookies),2.0701,0.0429,0.3964,0.0342,0.0256,0.3066,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pearl millet mathri (Bajra mathri),7.8508,0.0182,0.0742,0.8312,0.0136,0.0016,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sesame biscuit (Til ke biscuit),4.2403,0.0827,0.5365,0.1934,0.0683,0.2973,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Fermented bengal gram vada (Khameerikrit/Ufna hua channa dal ka vada),6.5757,0.0405,0.0868,0.6719,0.0265,0.0035,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Poshtik namak paras,6.1339,0.0649,0.1952,0.5658,0.0455,0.0087,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Soya chikki,4.237,0.0718,0.6289,0.1551,0.0355,0.4547,True,True,True,True,True,True,True,False,True,True,inferred_from_dish_name_keywords
+Besan bathua chilla/cheela,3.7382,0.1148,0.4065,0.1857,0.0779,0.0145,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Wheat flour and nuts ladoos (Atta nuts ladoos),3.919,0.0946,0.4431,0.1919,0.073,0.1594,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Gram flour and semolina dhokla (Besan suji dhokla),1.9891,0.0852,0.2592,0.071,0.0459,0.0258,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Atta dal burfi ,2.988,0.0666,0.4064,0.1247,0.0408,0.2108,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Soya roti,2.8396,0.0918,0.4003,0.0923,0.0871,0.0158,True,True,False,True,True,True,True,False,True,True,inferred_from_dish_name_keywords
+Poshtik khichdi/khichri,0.9337,0.0304,0.1564,0.0188,0.02,0.0026,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Namkeen daliya,2.9511,0.0829,0.4932,0.0799,0.0857,0.0082,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sprouts upma ,3.1625,0.095,0.4496,0.1044,0.0716,0.0167,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Semolina idli (Suji/Rava idli),2.0639,0.0934,0.3367,0.0347,0.0585,0.0342,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Poshtik chilla/cheela,1.5953,0.0485,0.2747,0.0304,0.0491,0.0122,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Stuffed bittergourd (dry) (Bharwa karela),2.1765,0.0129,0.0249,0.2238,0.0249,0.0007,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cauliflower potato canjee,0.1679,0.0057,0.0263,0.0039,0.0069,0.0013,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Creamed spinach,0.9691,0.0518,0.0444,0.0639,0.0133,0.0159,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mango milkshake with ice cream (Aam milkshake ice cream ke saath),0.6835,0.0193,0.0918,0.028,0.0023,0.0911,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pineapple milkshake with ice cream (Ananas milkshake ice cream ke saath),0.6849,0.0193,0.0933,0.0275,0.0042,0.092,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Orange milkshake with ice cream (Narangi milkshake ice cream ke saath),0.6782,0.0195,0.0915,0.0275,0.0016,0.09,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Woodapple juice (Bel ka sharbat),0.3418,0.0063,0.0651,0.007,0.0103,0.0575,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sattu drink,0.2338,0.0056,0.0516,0.0014,0.004,0.0396,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Apple and honey sorbet (Seb aur shehad ka sharbat),1.213,0.0015,0.3074,0.0029,0.0113,0.2918,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Thandai,1.0118,0.0359,0.0913,0.0589,0.008,0.0821,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Cucumber sharbat (Kheere ka sharbat),0.2728,0.0026,0.0664,0.0006,0.0078,0.0546,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Apple oats chia seed smoothie,0.8564,0.0349,0.1307,0.0248,0.0144,0.0576,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Nannari sharbat,0.9461,0.0001,0.2362,0.0001,0,0.2358,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Semolina milk drink (Thari kanji),0.4416,0.0098,0.0693,0.0136,0.0072,0.0388,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Saffron milk (Kesariya doodh),1.0218,0.0317,0.1264,0.0457,0.0014,0.125,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Black rice kheer (Chak-hao kheer),1.4794,0.0437,0.2293,0.0491,0.0076,0.1257,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Coconut kheer (Nariyal ki kheer),1.6261,0.034,0.1442,0.1055,0.0153,0.1373,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Apple sago payasam (Seb aur sabudana ki kheer),1.365,0.0313,0.144,0.0766,0.0038,0.1063,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Kesari bath,2.4457,0.024,0.3138,0.1259,0.0165,0.2016,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Putharekulu,3.183,0.0366,0.5961,0.0755,0.0175,0.2386,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mango malpua,3.3464,0.0165,0.1284,0.3067,0.0208,0.0496,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mango vanilla custard,1.4763,0.0343,0.1841,0.0704,0.0099,0.1462,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Kiwi granola pudding,2.8099,0.056,0.3233,0.1536,0.0371,0.1508,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Oats burfi,4.2519,0.0889,0.6247,0.1727,0.0496,0.3293,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Lotus seed halwa (Kamal gattay ka halwa),3.7055,0.0779,0.3956,0.2069,0.0042,0.098,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Amaranth ladoo (Rajgira ladoo),4.5415,0.1012,0.5133,0.227,0.0511,0.1992,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chhena poda,3.4457,0.1368,0.3364,0.1794,0.014,0.3065,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sweet couscous dessert,1.962,0.0381,0.2969,0.0769,0.0218,0.1589,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sweetened yogurt (Shrikhand),1.0718,0.0527,0.1602,0.0289,0.0008,0.1581,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Thickened sweetened milk (Rabri),1.0279,0.0352,0.1055,0.0535,0.0019,0.1009,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Gram flour halwa (Besan halwa),2.7679,0.0588,0.2578,0.173,0.0182,0.1583,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Prawn sandwich,1.6965,0.1036,0.1189,0.0927,0.0155,0.0121,False,False,True,True,True,True,True,True,True,False,inferred_from_dish_name_keywords
+Watercress sandwich,2.2942,0.0517,0.2803,0.1147,0.0226,0.0181,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Fish sandwich ,1.502,0.0472,0.1009,0.1037,0.0123,0.0104,False,False,True,True,True,True,True,True,False,True,inferred_from_dish_name_keywords
+Kidney bean sandwich with cottage cheese,1.7664,0.0985,0.1886,0.0684,0.0366,0.0369,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Finger millet biscuit (Ragi biscuit),4.5856,0.0403,0.5269,0.2579,0.0597,0.169,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Buttermilk biscuit,3.2254,0.0576,0.3493,0.175,0.0118,0.0344,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Lemon cookies,3.9448,0.0563,0.4219,0.2302,0.0078,0.2347,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sweet potato biscuit (Shakarkand ke biscuit),2.964,0.0514,0.3813,0.1331,0.0227,0.0253,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Raspberry shortbread cookies,4.4112,0.03,0.6125,0.2125,0.0075,0.4086,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pumpkin cookies ,2.184,0.0251,0.4469,0.0393,0.0106,0.3162,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Greenpea cookies,1.5942,0.0653,0.2307,0.0424,0.0532,0.1445,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sunflower cookies,5.2062,0.0949,0.4006,0.3628,0.0395,0.2428,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cardamom cookies (Elaichi cookies),4.0049,0.051,0.5399,0.1912,0.0279,0.3899,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Hazelnut cookies,4.9332,0.0625,0.3944,0.3497,0.0245,0.2201,True,True,True,True,True,True,False,True,True,True,inferred_from_dish_name_keywords
+Milk cookies,4.5943,0.1049,0.4843,0.2496,0.0099,0.2206,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cranberry cookies,2.7248,0.0392,0.3639,0.1266,0.0113,0.1996,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Olive biscuit,4.3829,0.032,0.5501,0.2375,0.0082,0.3227,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Tutti fruitti biscuit,3.9442,0.0521,0.5312,0.179,0.0543,0.1575,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Peach blueberry preserves,1.8696,0.0053,0.4576,0.002,0.0114,0.4533,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pear preserves (Naashpati ka murabba),1.0124,0.0025,0.2567,0.0019,0.0306,0.2519,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Starfruit preserves ,1.3652,0.0024,0.3362,0.0012,0.0078,0.3347,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Gooseberry pickle (Amla ka achaar),2.7858,0.0155,0.0761,0.2761,0.037,0.0036,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Lotus stem pickle (Kamal kakdi ka achar),1.0269,0.0144,0.2007,0.016,0.0858,0.0253,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Date pickle (Khajoor ka achaar),1.8229,0.0168,0.3466,0.0421,0.052,0.3047,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Garlic pickle (Lahasun ka achar),4.1362,0.0372,0.0975,0.3988,0.0513,0.0232,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Fermented bamboo shoot pickle (Mesu pickle),0.6355,0.0158,0.0173,0.0559,0.0173,0.0029,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sweet peach pickle (Aadoo ka achaar),1.4464,0.0046,0.3701,0.002,0.0132,0.3646,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pickled mustard greens ,0.1222,0.0151,0.0105,0.0022,0.0105,0.0002,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Small onion pickle ,0.234,0.0165,0.0276,0.0064,0.0109,0.0276,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Green tomato pickle (Haray tamatar ka achaar),1.9326,0.0123,0.0287,0.1967,0.0174,0.0077,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pickled cabbage ,0.1369,0.0039,0.0256,0.0014,0.0061,0.0208,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Coconut pickle (Nariyal ka aachar),5.1726,0.0302,0.1153,0.5171,0.0635,0.0898,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Potato pickle (Aloo ka achaar),3.6914,0.0207,0.0787,0.3646,0.0221,0.0082,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mango murabba candy,3.1081,0.0027,0.7732,0.0005,0.0095,0.7473,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Afghani chicken,1.5151,0.1566,0.0195,0.0907,0.0031,0.0083,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Fish orly,5.637,0.0587,0.0427,0.5818,0.0033,0.0024,False,False,True,True,True,True,True,True,False,True,inferred_from_dish_name_keywords
+Hariyali Fish Tikka,1.5024,0.1401,0.0221,0.0941,0.0099,0.0083,False,False,True,True,True,True,True,True,False,True,inferred_from_dish_name_keywords
+Chicken manchurian,1.7,0.0953,0.0606,0.1196,0.0041,0.009,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Handi chicken,1.6602,0.1232,0.0149,0.1246,0.0067,0.0075,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Lemon chicken,1.6979,0.202,0.0055,0.0966,0.0016,0.0016,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Lemon butter fish,1.6025,0.1638,0.0075,0.1026,0.0036,0.0023,False,False,True,False,True,True,True,True,False,True,inferred_from_dish_name_keywords
+Baked eggs in tomato sauce,0.8005,0.0492,0.0378,0.0522,0.0001,0.0203,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Egg in a pepper,1.2878,0.1264,0.0017,0.0868,0.0017,0.0005,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Spinach mushroom scrambled egg (Palak mushroom bhurji),1.5885,0.1328,0.0059,0.1151,0.0039,0.001,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Corn omelette/omlet,1.6693,0.1137,0.0157,0.1289,0.0002,0.0041,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Cajun chicken,1.8494,0.1269,0.0194,0.1399,0.0089,0.011,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Paaner do pyaza,1.277,0.0422,0.0341,0.1087,0.0084,0.022,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cabbage manchurian (Pattagobhi manchurian),2.2426,0.0064,0.0485,0.2248,0.0037,0.0033,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Gobi 65,2.7829,0.0056,0.0359,0.2911,0.0057,0.0029,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Paneer lababdar,1.0548,0.0398,0.0337,0.0846,0.0116,0.0196,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Roasted cauliflower steak,0.7868,0.0205,0.0202,0.067,0.0202,0.0044,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sauteed radishes with green beans,0.9432,0.0241,0.0604,0.0661,0.0352,0.0178,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Garlic chutney/Poondu chutney (Lahasun ki chutney),2.5551,0.0334,0.2044,0.1755,0.0515,0.1336,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Schezwan chutney,2.1596,0.0333,0.1079,0.1772,0.0572,0.0566,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Onion chutney (Pyaaz ki chutney/Vengaya chutney),1.4394,0.0297,0.1352,0.0838,0.046,0.068,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Dates chutney (Khajoor ki chutney),1.0357,0.0107,0.2169,0.0112,0.0341,0.1868,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chicken salad,3.3819,0.1533,0.013,0.3026,0.013,0.0096,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Macaroni salad,2.6219,0.0502,0.2163,0.1778,0.0056,0.0373,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cabbage raita (Pattagobhi raita),0.8484,0.0324,0.0525,0.0576,0.0093,0.0421,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pomegranate raita (Anaar ka raita),0.7264,0.0405,0.0715,0.0324,0.006,0.0701,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Onion raita (Pyaaz ka raita),0.7156,0.0486,0.0786,0.0243,0.0065,0.0707,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Green chilli raita (Hari mirch ka raita),0.7713,0.0558,0.0766,0.0292,0.0026,0.0749,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Kale salad,1.7771,0.0486,0.0501,0.1533,0.0136,0.0331,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Spinach and paneer souffle ,1.8619,0.0756,0.0964,0.1349,0.0107,0.0281,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Masala souffle ,1.2351,0.0638,0.0802,0.0737,0.0124,0.0184,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chicken and cheese souffle,1.8235,0.0907,0.0347,0.1474,0.0026,0.0246,False,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Tamarind chutney (Chintapandu pachadi/Puli chutney),1.0915,0.0088,0.2507,0.0048,0.0165,0.2285,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pav bhaji masala,2.5176,0.0913,0.2915,0.1096,0.243,0.0148,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Green chutney,0.7942,0.0542,0.1001,0.016,0.0584,0.0092,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sago khitchdi/khichri (Sabudana khitchdi/khichri),1.8716,0.0272,0.2241,0.101,0.0182,0.0103,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Gram flour chilla/cheela (Besan chilla/cheela),1.3593,0.078,0.2103,0.0285,0.0425,0.0187,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vegetable namkeen jave,1.1223,0.0293,0.1898,0.0251,0.0286,0.0104,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Khakhra,1.785,0.0478,0.2766,0.0532,0.0543,0.0088,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Moong bean dosa (Pesarattu),2.8596,0.1232,0.3191,0.1167,0.0604,0.029,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Methi thepla,3.4616,0.0898,0.4134,0.1595,0.0756,0.0298,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Rice puttu (Ari puttu),0.8198,0.0126,0.1182,0.0313,0.0076,0.0033,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Buckwheat pancake (Khura),2.633,0.0291,0.2728,0.1643,0.0056,0.0064,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Quinoa khichdi/khichri,0.6401,0.0318,0.0883,0.0159,0.0258,0.0069,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Khakhra chaat,3.5866,0.0452,0.1664,0.3065,0.0304,0.0326,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Banana appam,4.6981,0.0117,0.2006,0.4253,0.0067,0.0995,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Veg manchurian,5.8564,0.0089,0.0682,0.6165,0.0116,0.0076,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pav bhaji,0.9653,0.0266,0.1199,0.0432,0.0198,0.0206,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Rice murukku,5.9399,0.0541,0.3329,0.4822,0.0218,0.0017,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Bhel puri ,5.0989,0.0352,0.1647,0.4791,0.0224,0.0341,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Semolina dhokla (Suji/Rava dhokla),1.9491,0.0544,0.3086,0.052,0.0512,0.0185,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Spicy corn chaat ,4.798,0.0461,0.1145,0.4655,0.0217,0.0095,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Jackfruit fritters (Ponsa mulik/Kathal ka pakora),5.9779,0.0234,0.24,0.5441,0.015,0.1148,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Banana chips (Kele ke chips),6.6567,0.0037,0.0732,0.7046,0.0065,0.0437,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Wheat cake,3.1463,0.0479,0.4113,0.1495,0.0276,0.2579,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mango cheesecake,1.5246,0.0239,0.2006,0.073,0.0114,0.1536,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Carrot cake (Gajar ka cake),2.5559,0.056,0.3598,0.1027,0.0293,0.2396,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Semolina cake (Suji/Rava cake),3.7414,0.0658,0.3132,0.2518,0.0537,0.1886,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Finger millet cake (Ragi cake),2.7946,0.0396,0.3893,0.1227,0.0235,0.2476,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Honey cake,3.3359,0.0308,0.4904,0.147,0.0051,0.3343,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Almond cardamom cake (Badam elaichi cake),3.5635,0.0718,0.3453,0.2136,0.0235,0.1806,True,True,True,True,True,True,False,True,True,True,inferred_from_dish_name_keywords
+Tutti frutti cake,3.4772,0.0449,0.5294,0.1268,0.0085,0.2808,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Ham and Bean soup,0.9604,0.1061,0.0418,0.0415,0.0054,0.0143,False,False,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Whey soup,0.6891,0.0345,0.0626,0.0334,0.0084,0.0587,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Bottle gourd soup (Ghiya/Lauki soup),0.2305,0.0045,0.0116,0.0179,0.0096,0.0039,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Baked potato soup,1.4705,0.0573,0.0585,0.1121,0.003,0.0344,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pumpkin soup,0.4005,0.0047,0.0208,0.032,0.0119,0.0147,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sweet corn soup,0.3225,0.0099,0.0356,0.0163,0.0031,0.009,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Paneer soup,0.4785,0.0322,0.0242,0.028,0.0028,0.0198,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Curried Cauliflower soup,1.2729,0.0672,0.0312,0.0977,0.0234,0.0179,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Millet soup,0.5599,0.033,0.0241,0.0368,0.0241,0.0145,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Lemon coriander soup,1.0806,0.0227,0.1032,0.0626,0.0677,0.022,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Garlic soup,1.9486,0.0238,0.0699,0.1762,0.0166,0.0239,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Dal makhani,0.7404,0.0332,0.0796,0.0306,0.0227,0.008,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Dalma,1.1893,0.0491,0.1504,0.0458,0.0216,0.031,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Split bengal gram dal (Channa dal),3.72,0.208,0.6,0.056,0.122,0.012,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Horsegram dal (Kulthi dal) ,0.5565,0.0291,0.0821,0.0113,0.0152,0.0072,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Panchmel dal,1.1122,0.0463,0.1071,0.0536,0.032,0.0075,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Dal dhokli,0.6874,0.0296,0.0855,0.0247,0.0186,0.0112,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Gujarati handvo ,2.0709,0.0824,0.3186,0.048,0.0495,0.0251,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sev (Omapodi/Karapusa),6.0914,0.0512,0.1287,0.6008,0.0235,0.0053,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Papdi,7.0896,0.0183,0.1289,0.7211,0.0056,0.0031,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Jowar dosa,2.9435,0.085,0.4053,0.1028,0.0556,0.0059,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Bread roll,4.3546,0.0285,0.1612,0.4025,0.0145,0.0094,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Soya seekh kebab,1.1505,0.054,0.1,0.0588,0.0224,0.0051,True,True,True,True,True,True,True,False,True,True,inferred_from_dish_name_keywords
+Classic seasoned black beans,0.2878,0.0168,0.0161,0.0174,0.0161,0.0044,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Maa chaane ki dal,3.4467,0.198,0.4311,0.095,0.1345,0.0105,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Garlic chickpea soup (Lahasun aur chane ka shoraba),0.8953,0.0445,0.1392,0.0201,0.0284,0.0265,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+White sauce (thin),1.1517,0.0331,0.0658,0.0841,0.0007,0.0458,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+White sauce (medium),1.5127,0.0336,0.0798,0.1176,0.0014,0.0432,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+White sauce (thick),2.0969,0.0343,0.1024,0.1719,0.0024,0.039,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cheese sauce,1.9476,0.0768,0.0708,0.1512,0.0012,0.0453,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Egg sauce,1.4685,0.0597,0.0588,0.1108,0.0012,0.0319,True,False,True,True,False,True,True,True,True,True,inferred_from_dish_name_keywords
+Mushroom sauce,1.3756,0.0339,0.0731,0.1051,0.0047,0.0386,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mustard sauce,1.5858,0.0398,0.0829,0.1217,0.0013,0.0422,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Brown sauce,2.8223,0.1192,0.0538,0.2367,0.0169,0.0013,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Classic italian pasta,0.4212,0.0057,0.044,0.0245,0.0136,0.0294,True,False,False,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pasta spinach sauce,0.8546,0.0176,0.0176,0.079,0.0086,0.0104,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pasta cheese sauce,1.4926,0.0433,0.09,0.1084,0.0014,0.0422,True,False,False,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mayonnaise,7.7486,0.0186,0.0165,0.8452,0.0011,0.0144,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Low calorie quick mayonnaise,2.4289,0.0141,0.0471,0.2435,0.0006,0.0083,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Thousand island dressing,4.0787,0.0137,0.0449,0.4287,0.0046,0.031,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Curd dip,0.7995,0.0504,0.0795,0.0336,0.001,0.0712,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Short crust pastry,4.221,0.0611,0.4472,0.2398,0.0158,0.0318,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Choux pastry,2.2237,0.0555,0.162,0.1496,0.0056,0.015,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Flaky pastry,4.4394,0.0469,0.3361,0.3199,0.0125,0.0081,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sponge cake ,2.5377,0.0918,0.4463,0.0474,0.0069,0.2633,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Glace icing,3.4537,0.0001,0.8631,0.0001,0,0.8535,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Royal icing,3.5326,0.0174,0.8653,0.0002,0,0.8557,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+American frosting,2.7421,0.0105,0.6748,0.0001,0,0.6746,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Gum icing,2.3652,0.0594,0.5319,0,0,0.5263,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Channa murmura premix,3.6224,0.1059,0.7259,0.0328,0.0821,0.0152,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cracked wheat and green gram dal premix (Dalia moong dal premix),3.6216,0.1589,0.6475,0.0511,0.1166,0.0063,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Rice flakes and roasted channa ,3.565,0.1057,0.7194,0.0294,0.0884,0.0131,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Spinach soup in milk ,0.5672,0.0289,0.0398,0.032,0.0079,0.0334,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vegetable soup,0.5521,0.0222,0.076,0.0155,0.0301,0.0161,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mashed banana with milk,0.9543,0.0251,0.1462,0.0299,0.0071,0.1135,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Poha with curd (Poha aur dahi),1.7332,0.0601,0.2672,0.0465,0.0109,0.0546,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Potato with curd,0.7318,0.0319,0.1201,0.0133,0.0102,0.033,True,False,True,False,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sweet wheat porridge (Sweet dalia),1.4066,0.0511,0.2377,0.0279,0.0237,0.1223,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Vegetable khichdi/khichri,1.4317,0.0561,0.1957,0.0453,0.0245,0.0371,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Moong dal mixture,1.5884,0.0462,0.3393,0.01,0.019,0.2468,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cracked wheat khichri/khichdi (Dalia khichri/khichdi),1.6745,0.0756,0.2235,0.0552,0.0374,0.0379,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Stewed apple,0.9193,0.0017,0.2249,0.0037,0.0148,0.2045,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Lemon squash (Nimbu ka squash),1.9666,0.0015,0.4888,0.0006,0,0.4888,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Orange squash (Santre ka squash),2.0476,0.0022,0.5088,0.0004,0.004,0.5056,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Lichi squash,2.0976,0.003,0.5196,0.0008,0.0041,0.5131,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mango squash (Aam ka squash),2.0605,0.0017,0.5096,0.0017,0.0058,0.5084,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pineapple squash (Ananas ka squash),2.0645,0.0016,0.5134,0.0005,0.0106,0.5108,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Lemon and ginger squash (Nimbu aur adrak ka squash),1.8029,0.0054,0.4406,0.0021,0.0107,0.4253,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Apple jam (Seb ka murabba),1.8879,0.0014,0.4856,0.0032,0.0129,0.4676,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Plum jam (Aloo bukhara jam),1.7889,0.0031,0.462,0.0019,0.01,0.4525,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Pineapple jam ,1.4918,0.0032,0.3827,0.0015,0.022,0.3744,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Guava jelly (Amrood ki jelly),1.1574,0.0111,0.2818,0.0025,0.0661,0.2738,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Orange marmalade (Santray ka murabba),1.0417,0.0066,0.2594,0.0013,0.0197,0.2509,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Carrot murabba (Gajar ka murabba),1.8512,0.0032,0.456,0.0016,0.0139,0.4483,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Gooseberry marmalade (Amla murabba),1.2316,0.0013,0.3059,0.0003,0,0.2861,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Ginger candy (Adrak ki candy),2.0671,0.0069,0.5038,0.0027,0.0167,0.4799,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mango pickle (Aam ka achaar),1.9212,0.016,0.0811,0.1789,0.0368,0.0179,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mixed vegetable pickle (Sabziyoon ka achaar),2.112,0.019,0.0748,0.1968,0.0276,0.0277,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sweet lemon pickle (Neembu ka meetha achaar),0.7425,0.0122,0.1687,0.0021,0.0213,0.1463,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Plum chutney (Aloo bukhara ki chutney),1.7711,0.0047,0.4495,0.0029,0.0137,0.439,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Raw mango chutney (Kachhe aam/Kairi ki chutney),2.0324,0.0051,0.4994,0.0016,0.0217,0.4522,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Tomato sauce,0.3433,0.0081,0.0723,0.0027,0.0179,0.0569,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Tomato puree,0.2062,0.0075,0.0368,0.0025,0.0156,0.0232,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Garam masala,2.5421,0.0989,0.262,0.1097,0.262,0.0179,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Chat masala,2.2258,0.0819,0.2387,0.0991,0.1862,0.0079,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Kashmiri masala,3.8902,0.0826,0.2316,0.3103,0.1212,0.0241,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Rasam powder (Rasam masala),2.6796,0.1204,0.2519,0.118,0.2519,0.0191,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sambar powder (Sambar masala),2.9746,0.125,0.2338,0.1558,0.2338,0.0187,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Tartare sauce,6.1093,0.0144,0.0296,0.6612,0.0042,0.0218,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Barbeque sauce,1.2193,0.0096,0.2046,0.0451,0.0069,0.1888,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Bread sauce,1.1104,0.0346,0.0869,0.0705,0.0056,0.0463,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Green chilli sauce,0.3687,0.0125,0.0736,0.0027,0.0177,0.0536,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Home made plain noodles,2.3878,0.0621,0.445,0.0356,0.0165,0.0107,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Dal moong,0.4369,0.022,0.0492,0.0162,0.0108,0.0013,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Cumin seeds baghar (Jeera baghar/tadka),7.3681,0.0334,0.0522,0.7877,0.0522,0.0049,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Onion tomato baghar (Pyaaz tamatar ka tadka),1.3752,0.0126,0.0617,0.1198,0.0212,0.0351,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Mustard seeds baghar (Mustard seed tadka),5.5259,0.0473,0.1045,0.543,0.0974,0.0114,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Hot cherry sauce,2.7295,0.0013,0.6795,0.0007,0,0.1765,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Apple jelly (Seb ki jelly),1.5977,0.001,0.3937,0.0021,0.0086,0.3818,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Marmalade (Murabba),1.5184,0.0023,0.3764,0.0004,0.0043,0.3729,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Plum squash (Aloo bukhara squash),2.2358,0.0016,0.5551,0.001,0.0052,0.5502,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Lemon green chilli pickle (Nimboo aur hari mirch ka achaar),0.1407,0.0085,0.0214,0.0024,0.0107,0.01,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Brinjal pickle (Baingan ka achaar),1.3901,0.0224,0.0423,0.1298,0.0423,0.0107,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Sweet and sour tomato pickle (Khatta meetha tamatar ka achaar),0.6088,0.0126,0.0655,0.0324,0.022,0.0431,True,True,False,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Jhatpat achar with carrot (Jhatpat achaar gajar ke saath),0.9121,0.0198,0.0632,0.0655,0.0508,0.0304,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Tomato chutney (Tamatar ki chutney),1.8537,0.0097,0.3185,0.0601,0.0149,0.3002,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Tomato ketchup,0.3307,0.0091,0.0648,0.003,0.019,0.0468,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords
+Bengal 5 Spice Blend (Panch Phoran),3.5248,0.1826,0.2,0.2216,0.184,0.014,True,True,True,True,True,True,True,True,True,True,inferred_from_dish_name_keywords

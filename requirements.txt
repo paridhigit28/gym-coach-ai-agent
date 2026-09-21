@@ -1,0 +1,16 @@
+streamlit==1.54.0
+SQLAlchemy>=2.0.30
+python-dotenv>=1.0.1
+# google-generativeai>=0.7.2
+bcrypt>=4.1.3
+plotly>=5.22.0
+pandas>=2.2.2
+reportlab>=4.2.5
+pillow>=11.0.0
+email-validator>=2.1.2
+streamlit-webrtc==0.64.5
+mediapipe==0.10.14
+opencv-python-headless==4.10.0.84
+groq>=0.12.0
+requests>=2.31.0
+gtts==2.5.3
